@@ -15,7 +15,7 @@ const movieScenes = [
             timestamp: "1:17:30",
             description: "The iconic prison dinner scene where Paulie slices garlic with a razor blade, Vinnie makes the sauce, and Johnny Dio does the meat. A masterclass in making prison food look gourmet.",
             foodItems: ["Pasta", "Tomato Sauce", "Steak", "Garlic", "Wine"],
-            thumbnailUrl: "images/scenes/goodfellas-prison-dinner-placeholder.svg",
+            thumbnailUrl: "images/real-images/scenes/goodfellas-prison-dinner.jpg",
             thumbnailAlt: "Goodfellas prison dinner scene - preparing pasta with garlic",
             videoUrl: "#",
             significance: "Shows how the mob maintains their lifestyle and standards even behind bars"
@@ -42,7 +42,7 @@ const movieScenes = [
             timestamp: "1:45:00",
             description: "Remy prepares the rustic ratatouille dish that wins over the harsh food critic Anton Ego, transporting him back to his childhood.",
             foodItems: ["Ratatouille", "Vegetables", "Herbs"],
-            thumbnailUrl: "images/scenes/ratatouille-anton-ego-placeholder.svg",
+            thumbnailUrl: "images/real-images/scenes/ratatouille-final-dish.jpg",
             thumbnailAlt: "Ratatouille - Anton Ego tasting the ratatouille dish",
             videoUrl: "#",
             significance: "Demonstrates how simple, heartfelt cooking can evoke powerful memories and emotions"
@@ -69,7 +69,7 @@ const movieScenes = [
             timestamp: "0:25:00",
             description: "Jules takes a bite of Brett's Big Kahuna Burger and washes it down with Sprite, creating one of cinema's most tension-filled food moments.",
             foodItems: ["Big Kahuna Burger", "Sprite", "French Fries"],
-            thumbnailUrl: "images/scenes/pulp-fiction-burger-placeholder.svg",
+            thumbnailUrl: "images/real-images/scenes/pulp-fiction-burger.jpg",
             thumbnailAlt: "Pulp Fiction - Jules eating Big Kahuna Burger",
             videoUrl: "#",
             significance: "Uses food as a power play and intimidation tactic before violence"
@@ -96,7 +96,7 @@ const movieScenes = [
             timestamp: "0:15:00",
             description: "Julia Child discovers the simple perfection of French bruschetta topped with fresh tomatoes in a Parisian café.",
             foodItems: ["Bruschetta", "Tomatoes", "Bread", "Olive Oil"],
-            thumbnailUrl: "images/scenes/julie-julia-bruschetta-placeholder.svg",
+            thumbnailUrl: "images/real-images/scenes/julie-julia-bruschetta.jpg",
             thumbnailAlt: "Julie & Julia - Julia Child's first bruschetta in Paris",
             videoUrl: "#",
             significance: "Marks Julia's culinary awakening and love affair with French cuisine"
