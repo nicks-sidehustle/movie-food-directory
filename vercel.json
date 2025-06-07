@@ -1,9 +1,7 @@
 {
-  "buildCommand": null,
+  "buildCommand": false,
   "outputDirectory": ".",
   "framework": null,
-  "installCommand": null,
-  "devCommand": null,
   "cleanUrls": true,
   "trailingSlash": false,
   "git": {
@@ -58,6 +56,5 @@
         }
       ]
     }
-  ],
-  "rewrites": []
+  ]
 }
