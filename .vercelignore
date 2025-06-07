@@ -1,0 +1,33 @@
+# Ignore development files
+*.py
+*.pyc
+__pycache__
+.pytest_cache
+.coverage
+htmlcov/
+
+# Ignore source files
+*.psd
+*.ai
+*.sketch
+
+# Ignore documentation
+*.md
+!README.md
+
+# Ignore test files
+test-*.html
+debug.html
+
+# Ignore git files
+.git
+.gitignore
+
+# Ignore old folders
+images-old/
+
+# DO NOT ignore any images
+!images/**/*.jpg
+!images/**/*.png
+!images/**/*.svg
+!images/**/*.webp

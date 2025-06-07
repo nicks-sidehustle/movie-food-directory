@@ -1,35 +1,68 @@
 {
-  "buildCommand": null,
+  "buildCommand": false,
   "outputDirectory": ".",
+  "framework": null,
+  "installCommand": null,
+  "devCommand": null,
   "cleanUrls": true,
   "trailingSlash": false,
+  "git": {
+    "deploymentEnabled": true
+  },
+  "functions": {
+    "api/**/*": {
+      "maxDuration": 30
+    }
+  },
   "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ]
+    },
     {
       "source": "/images/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
           "value": "public, max-age=31536000, immutable"
+        },
+        {
+          "key": "Accept-Ranges",
+          "value": "bytes"
         }
       ]
     },
     {
-      "source": "/css/(.*)",
+      "source": "/(.*).jpg",
       "headers": [
         {
-          "key": "Cache-Control",
-          "value": "public, max-age=86400"
+          "key": "Content-Type",
+          "value": "image/jpeg"
         }
       ]
     },
     {
-      "source": "/js/(.*)",
+      "source": "/(.*).webp",
       "headers": [
         {
-          "key": "Cache-Control",
-          "value": "public, max-age=86400"
+          "key": "Content-Type",
+          "value": "image/webp"
         }
       ]
     }
-  ]
+  ],
+  "rewrites": []
 }
