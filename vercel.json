@@ -9,11 +9,6 @@
   "git": {
     "deploymentEnabled": true
   },
-  "functions": {
-    "api/**/*": {
-      "maxDuration": 30
-    }
-  },
   "headers": [
     {
       "source": "/(.*)",
