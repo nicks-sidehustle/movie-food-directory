@@ -1,17 +1,23 @@
 /* CSS Variables - Design System */
 :root {
-    /* Colors */
-    --color-primary: #DC143C; /* Crimson red - more vibrant */
-    --color-secondary: #FFA500; /* Orange - warmer and more visible */
-    --color-accent: #4CAF50; /* Green - clearer */
-    --color-neutral-dark: #2C3E50; /* Dark blue-gray */
-    --color-neutral-light: #F5F5F5; /* Light gray */
+    /* Colors - Summer Movie Night Theme */
+    --color-primary: #FF6B6B; /* Watermelon pink */
+    --color-secondary: #FFD93D; /* Golden sunshine */
+    --color-accent: #95E1D3; /* Mint green - like fresh herbs */
+    --color-warm-orange: #FFA07A; /* Light salmon - sunset glow */
+    --color-picnic-red: #FF8B94; /* Gingham/picnic blanket red */
+    --color-grass-green: #A8E6CF; /* Fresh grass green */
+    --color-sky-blue: #C7CEEA; /* Twilight sky */
+    --color-neutral-dark: #5D4E60; /* Soft purple-gray for text */
+    --color-neutral-light: #FFF5EB; /* Warm cream */
+    --color-background: #FFFBF3; /* Warm off-white */
     --color-white: #FFFFFF;
-    --color-black: #000000;
+    --color-black: #2D2D2D; /* Softer black */
     
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, #A52A2A 100%);
-    --gradient-overlay: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+    --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-warm-orange) 100%);
+    --gradient-sunset: linear-gradient(135deg, #FFD93D 0%, #FFA07A 50%, #FF8B94 100%);
+    --gradient-overlay: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,251,243,0.9) 100%);
     
     /* Typography */
     --font-heading: 'Bebas Neue', sans-serif;

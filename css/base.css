@@ -3,7 +3,7 @@ body {
     font-family: var(--font-body);
     font-size: var(--text-base);
     color: var(--color-neutral-dark);
-    background-color: var(--color-white);
+    background-color: var(--color-background);
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -13,8 +13,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
     font-weight: 400;
     line-height: 1.2;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: var(--color-primary);
 }
 
 h1 {
@@ -55,6 +55,21 @@ p {
     color: var(--color-primary);
     margin-bottom: var(--spacing-xl);
     text-align: center;
+    text-transform: none;
+    position: relative;
+    padding-bottom: var(--spacing-md);
+}
+
+.section-title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: var(--gradient-sunset);
+    border-radius: var(--radius-full);
 }
 
 .accent-text {

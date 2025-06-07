@@ -18,18 +18,19 @@
 }
 
 .btn-primary {
-    background-color: var(--color-primary);
+    background: var(--gradient-primary);
     color: var(--color-white);
+    border: none;
 }
 
 .btn-primary:hover {
-    background-color: #B91C1C;
+    background: var(--gradient-sunset);
     transform: translateY(-2px);
-    box-shadow: var(--shadow-md);
+    box-shadow: 0 4px 12px rgba(255, 107, 107, 0.3);
 }
 
 .btn-secondary {
-    background-color: transparent;
+    background-color: var(--color-white);
     color: var(--color-primary);
     border: 2px solid var(--color-primary);
 }
@@ -37,6 +38,7 @@
 .btn-secondary:hover {
     background-color: var(--color-primary);
     color: var(--color-white);
+    border-color: var(--color-primary);
 }
 
 /* Content Cards */
@@ -44,14 +46,16 @@
     background-color: var(--color-white);
     border-radius: var(--radius-lg);
     overflow: hidden;
-    box-shadow: var(--shadow-sm);
+    box-shadow: 0 2px 8px rgba(255, 107, 107, 0.1);
     transition: all var(--transition-base);
     cursor: pointer;
+    border: 1px solid rgba(255, 107, 107, 0.1);
 }
 
 .content-card:hover {
     transform: translateY(-4px);
-    box-shadow: var(--shadow-lg);
+    box-shadow: 0 8px 24px rgba(255, 107, 107, 0.15);
+    border-color: var(--color-warm-orange);
 }
 
 .content-card:hover .card-image img {
@@ -97,7 +101,7 @@
 .card-food {
     font-family: var(--font-accent);
     font-size: var(--text-lg);
-    color: var(--color-accent);
+    color: var(--color-warm-orange);
     margin-bottom: var(--spacing-sm);
 }
 
