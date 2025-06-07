@@ -7,7 +7,7 @@ class ImageLoader {
     }
     
     init() {
-        this.setupLazyLoading();
+        // Simplified image loading
         this.setupImageErrorHandling();
         this.addSkeletonStyles();
     }

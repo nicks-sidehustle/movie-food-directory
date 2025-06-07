@@ -114,10 +114,8 @@ class FoodInMovies {
                     <img 
                         class="scene-image"
                         src="${sceneData.thumbnailUrl}"
-                        data-srcset="${window.imageLoader ? window.imageLoader.generateSrcset(sceneData.thumbnailUrl) : ''}"
                         alt="${sceneData.thumbnailAlt || `${movie.title} - ${sceneData.foodItems[0]} scene`}"
-                        data-attribution="${attribution}"
-                        data-placeholder-type="scene"
+                        onerror="this.src='images/fallback.jpg'"
                         loading="lazy">
                 </div>
                 <div class="card-content">
