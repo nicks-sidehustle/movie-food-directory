@@ -1,0 +1,93 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d2d2d;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Neon glow effect -->
+    <filter id="neonGlow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Text shadow -->
+    <filter id="textShadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bgGradient)"/>
+  
+  <!-- Retro diner pattern -->
+  <g opacity="0.1">
+    <pattern id="checkerboard" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="20" height="20" fill="#fff"/>
+      <rect x="20" y="20" width="20" height="20" fill="#fff"/>
+    </pattern>
+    <rect width="800" height="450" fill="url(#checkerboard)"/>
+  </g>
+  
+  <!-- Burger wrapper -->
+  <rect x="250" y="150" width="300" height="200" rx="5" fill="#f4e4c1" stroke="#8b4513" stroke-width="2"/>
+  <text x="400" y="180" text-anchor="middle" font-family="Impact, sans-serif" font-size="24" fill="#d2691e">BIG KAHUNA BURGER</text>
+  
+  <!-- Burger layers -->
+  <!-- Bottom bun -->
+  <ellipse cx="400" cy="290" rx="100" ry="25" fill="#d2691e"/>
+  <rect x="300" y="280" width="200" height="20" fill="#d2691e"/>
+  
+  <!-- Patty -->
+  <ellipse cx="400" cy="270" rx="95" ry="15" fill="#654321"/>
+  <ellipse cx="385" cy="265" rx="20" ry="8" fill="#8b4513" opacity="0.7"/>
+  <ellipse cx="420" cy="268" rx="15" ry="6" fill="#8b4513" opacity="0.7"/>
+  
+  <!-- Cheese -->
+  <path d="M 305 260 L 495 260 L 490 250 L 310 250 Z" fill="#ffd700" opacity="0.9"/>
+  
+  <!-- Lettuce -->
+  <path d="M 305 250 Q 350 245, 400 250 T 495 250" fill="#90ee90" stroke="#228b22" stroke-width="1"/>
+  <path d="M 310 248 Q 355 243, 400 248 T 490 248" fill="#90ee90" stroke="#228b22" stroke-width="1"/>
+  
+  <!-- Tomato -->
+  <ellipse cx="380" cy="240" rx="35" ry="8" fill="#ff6347"/>
+  <ellipse cx="420" cy="240" rx="35" ry="8" fill="#ff6347"/>
+  
+  <!-- Top bun -->
+  <path d="M 300 230 Q 400 210, 500 230 L 495 220 Q 400 190, 305 220 Z" fill="#d2691e"/>
+  <circle cx="350" cy="210" r="3" fill="#f5deb3"/>
+  <circle cx="400" cy="205" r="3" fill="#f5deb3"/>
+  <circle cx="450" cy="210" r="3" fill="#f5deb3"/>
+  <circle cx="380" cy="215" r="3" fill="#f5deb3"/>
+  <circle cx="420" cy="215" r="3" fill="#f5deb3"/>
+  
+  <!-- French fries -->
+  <g transform="translate(150, 250)">
+    <rect x="0" y="0" width="8" height="60" fill="#ffd700" transform="rotate(-10)"/>
+    <rect x="10" y="5" width="8" height="55" fill="#ffd700" transform="rotate(-5)"/>
+    <rect x="20" y="0" width="8" height="58" fill="#ffd700" transform="rotate(-12)"/>
+    <rect x="30" y="3" width="8" height="57" fill="#ffd700" transform="rotate(-8)"/>
+    <rect x="40" y="-2" width="8" height="62" fill="#ffd700" transform="rotate(-15)"/>
+  </g>
+  
+  <!-- Drink cup -->
+  <g transform="translate(580, 230)">
+    <path d="M 0 50 L 10 0 L 60 0 L 70 50 Z" fill="#dc143c" stroke="#8b0000" stroke-width="2"/>
+    <rect x="5" y="5" width="60" height="10" fill="#fff" opacity="0.8"/>
+    <text x="35" y="35" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="16" fill="#fff">TASTY</text>
+    <rect x="30" y="-20" width="10" height="25" fill="#fff" stroke="#ccc" stroke-width="1"/>
+    <path d="M 35 -20 Q 35 -25, 30 -30 Q 25 -35, 20 -30" fill="none" stroke="#dc143c" stroke-width="3"/>
+  </g>
+  
+  <!-- Movie title -->
+  <text x="400" y="400" text-anchor="middle" font-family="Impact, sans-serif" font-size="36" fill="#ffd700" filter="url(#textShadow)">PULP FICTION</text>
+  <text x="400" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#fff" opacity="0.8">1994</text>
+  
+  <!-- Film noir style light streak -->
+  <path d="M 0 0 L 200 450" stroke="#fff" stroke-width="40" opacity="0.05"/>
+</svg>

@@ -1,0 +1,158 @@
+{
+  "scraped_at": "2025-06-02T11:15:46.122164",
+  "total_images": 8,
+  "by_movie": {
+    "Eat Pray Love": [
+      {
+        "url": "https://www.eatthis.com/wp-content/uploads/sites/4/2021/03/eat-pray-love-spaghetti-scene-1.jpg?quality=82&strip=1",
+        "alt_text": "eat pray love spaghetti scene",
+        "caption": "Skyggedis/ YouTube",
+        "source_url": "https://www.eatthis.com/iconic-food-scenes-movies/",
+        "movie": "Eat Pray Love",
+        "is_food_related": false,
+        "is_movie_related": true
+      },
+      {
+        "url": "https://www.eatthis.com/wp-content/uploads/sites/4/2021/03/eat-pray-love-pizza-scene.jpg",
+        "alt_text": "eat pray love pizza scene",
+        "caption": "Skyggedis/ YouTube",
+        "source_url": "https://www.eatthis.com/iconic-food-scenes-movies/",
+        "movie": "Eat Pray Love",
+        "is_food_related": true,
+        "is_movie_related": true
+      }
+    ],
+    "null": [
+      {
+        "url": "https://www.eatthis.com/wp-content/uploads/sites/4/2021/03/breakfast-at-tiffanys-scene.jpg",
+        "alt_text": "breakfast at tiffanys scene",
+        "caption": "Deep Sandwich/ YouTube",
+        "source_url": "https://www.eatthis.com/iconic-food-scenes-movies/",
+        "movie": null,
+        "is_food_related": true,
+        "is_movie_related": false
+      },
+      {
+        "url": "https://www.eatthis.com/wp-content/uploads/sites/4/2021/03/elf-breakfast-scene-1.jpg",
+        "alt_text": "elf breakfast scene",
+        "caption": "Leon Janzen/ YouTube",
+        "source_url": "https://www.eatthis.com/iconic-food-scenes-movies/",
+        "movie": null,
+        "is_food_related": true,
+        "is_movie_related": false
+      },
+      {
+        "url": "https://www.eatthis.com/wp-content/uploads/sites/4/2021/03/julie-and-julia-cooking-scene.jpg",
+        "alt_text": "julie and julia cooking scene",
+        "caption": "Movieclips/ YouTube",
+        "source_url": "https://www.eatthis.com/iconic-food-scenes-movies/",
+        "movie": null,
+        "is_food_related": true,
+        "is_movie_related": false
+      },
+      {
+        "url": "https://www.eatthis.com/wp-content/uploads/sites/4/2021/03/spanglish-movie-egg-sandwich.jpg",
+        "alt_text": "spanglish movie",
+        "caption": "FilmFood Janneke/ YouTube",
+        "source_url": "https://www.eatthis.com/iconic-food-scenes-movies/",
+        "movie": null,
+        "is_food_related": true,
+        "is_movie_related": false
+      },
+      {
+        "url": "https://www.eatthis.com/wp-content/uploads/sites/4/2025/02/ben-affleck-dunkin.jpg?quality=82&strip=all&w=134&h=76&crop=1",
+        "alt_text": "9 super bowl lix food ads everyone\u2019s talking about right now",
+        "caption": null,
+        "source_url": "https://www.eatthis.com/iconic-food-scenes-movies/",
+        "movie": null,
+        "is_food_related": true,
+        "is_movie_related": false
+      }
+    ],
+    "Ratatouille": [
+      {
+        "url": "https://www.eatthis.com/wp-content/uploads/sites/4//media/images/ext/484795047/ratatouille-image-edited.jpg?quality=82&strip=all&w=354&h=256&crop=1",
+        "alt_text": "",
+        "caption": null,
+        "source_url": "https://www.eatthis.com/iconic-food-scenes-movies/",
+        "movie": "Ratatouille",
+        "is_food_related": false,
+        "is_movie_related": true
+      }
+    ]
+  },
+  "images": [
+    {
+      "url": "https://www.eatthis.com/wp-content/uploads/sites/4/2021/03/eat-pray-love-spaghetti-scene-1.jpg?quality=82&strip=1",
+      "alt_text": "eat pray love spaghetti scene",
+      "caption": "Skyggedis/ YouTube",
+      "source_url": "https://www.eatthis.com/iconic-food-scenes-movies/",
+      "movie": "Eat Pray Love",
+      "is_food_related": false,
+      "is_movie_related": true
+    },
+    {
+      "url": "https://www.eatthis.com/wp-content/uploads/sites/4/2021/03/breakfast-at-tiffanys-scene.jpg",
+      "alt_text": "breakfast at tiffanys scene",
+      "caption": "Deep Sandwich/ YouTube",
+      "source_url": "https://www.eatthis.com/iconic-food-scenes-movies/",
+      "movie": null,
+      "is_food_related": true,
+      "is_movie_related": false
+    },
+    {
+      "url": "https://www.eatthis.com/wp-content/uploads/sites/4/2021/03/elf-breakfast-scene-1.jpg",
+      "alt_text": "elf breakfast scene",
+      "caption": "Leon Janzen/ YouTube",
+      "source_url": "https://www.eatthis.com/iconic-food-scenes-movies/",
+      "movie": null,
+      "is_food_related": true,
+      "is_movie_related": false
+    },
+    {
+      "url": "https://www.eatthis.com/wp-content/uploads/sites/4/2021/03/eat-pray-love-pizza-scene.jpg",
+      "alt_text": "eat pray love pizza scene",
+      "caption": "Skyggedis/ YouTube",
+      "source_url": "https://www.eatthis.com/iconic-food-scenes-movies/",
+      "movie": "Eat Pray Love",
+      "is_food_related": true,
+      "is_movie_related": true
+    },
+    {
+      "url": "https://www.eatthis.com/wp-content/uploads/sites/4/2021/03/julie-and-julia-cooking-scene.jpg",
+      "alt_text": "julie and julia cooking scene",
+      "caption": "Movieclips/ YouTube",
+      "source_url": "https://www.eatthis.com/iconic-food-scenes-movies/",
+      "movie": null,
+      "is_food_related": true,
+      "is_movie_related": false
+    },
+    {
+      "url": "https://www.eatthis.com/wp-content/uploads/sites/4/2021/03/spanglish-movie-egg-sandwich.jpg",
+      "alt_text": "spanglish movie",
+      "caption": "FilmFood Janneke/ YouTube",
+      "source_url": "https://www.eatthis.com/iconic-food-scenes-movies/",
+      "movie": null,
+      "is_food_related": true,
+      "is_movie_related": false
+    },
+    {
+      "url": "https://www.eatthis.com/wp-content/uploads/sites/4//media/images/ext/484795047/ratatouille-image-edited.jpg?quality=82&strip=all&w=354&h=256&crop=1",
+      "alt_text": "",
+      "caption": null,
+      "source_url": "https://www.eatthis.com/iconic-food-scenes-movies/",
+      "movie": "Ratatouille",
+      "is_food_related": false,
+      "is_movie_related": true
+    },
+    {
+      "url": "https://www.eatthis.com/wp-content/uploads/sites/4/2025/02/ben-affleck-dunkin.jpg?quality=82&strip=all&w=134&h=76&crop=1",
+      "alt_text": "9 super bowl lix food ads everyone\u2019s talking about right now",
+      "caption": null,
+      "source_url": "https://www.eatthis.com/iconic-food-scenes-movies/",
+      "movie": null,
+      "is_food_related": true,
+      "is_movie_related": false
+    }
+  ]
+}

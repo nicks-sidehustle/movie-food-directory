@@ -1,0 +1,114 @@
+{
+  "scenes": [
+    {
+      "filename": "goodfellas-prison-dinner.jpg",
+      "movie": "Goodfellas",
+      "scene": "Prison dinner preparation",
+      "prompt": "Photorealistic scene showing Italian-American men in 1970s prison uniforms preparing an elaborate Italian feast in a makeshift prison kitchen. Focus on hands slicing garlic paper-thin with a razor blade, fresh tomatoes, basil, and pasta ingredients spread on a metal table. Warm golden hour lighting streaming through barred windows, steam rising from cooking pots, cinematic composition inspired by Martin Scorsese's visual style. 1200x800 resolution, 16:9 aspect ratio.",
+      "style": "Cinematic realism, warm color grading, Scorsese aesthetic",
+      "dimensions": "1200x800"
+    },
+    {
+      "filename": "ratatouille-anton-ego.jpg", 
+      "movie": "Ratatouille",
+      "scene": "Anton Ego tasting ratatouille",
+      "prompt": "Photorealistic close-up of an elegant food critic's emotional moment tasting ratatouille. Show a distinguished older man in formal attire at a fine dining table, eyes closed in rapture as he tastes from a beautifully plated ratatouille dish. Soft restaurant lighting, depth of field focusing on his expression and the colorful vegetable dish. Pixar-inspired lighting with realistic textures. 1200x800 resolution.",
+      "style": "Pixar-inspired photorealism, warm restaurant ambiance",
+      "dimensions": "1200x800"
+    },
+    {
+      "filename": "pulp-fiction-burger.jpg",
+      "movie": "Pulp Fiction", 
+      "scene": "Big Kahuna Burger scene",
+      "prompt": "Photorealistic scene of a man in a black suit taking a satisfying bite from a Big Kahuna Burger in a modest apartment. Focus on the burger with visible beef patty, cheese, lettuce, and special sauce. Natural daylight from apartment window, Tarantino-style composition with dramatic angles. Include a drink cup with 'Big Kahuna Burger' branding visible. 1200x800 resolution.",
+      "style": "Tarantino cinematography, high contrast, 90s aesthetic",
+      "dimensions": "1200x800"
+    },
+    {
+      "filename": "chef-pasta-aglio.jpg",
+      "movie": "Chef",
+      "scene": "Pasta aglio e olio preparation",
+      "prompt": "Photorealistic intimate kitchen scene of a chef preparing pasta aglio e olio. Show hands tossing spaghetti in a pan with golden olive oil, garlic, and red pepper flakes. Steam rising, warm kitchen lighting, shallow depth of field emphasizing the sensual cooking process. Include fresh parsley and parmesan nearby. Jon Favreau film aesthetic. 1200x800 resolution.",
+      "style": "Warm, intimate lighting, food photography aesthetic",
+      "dimensions": "1200x800"
+    },
+    {
+      "filename": "julie-julia-bruschetta.jpg",
+      "movie": "Julie & Julia",
+      "scene": "Bruschetta preparation",
+      "prompt": "Photorealistic scene of a young woman in a small NYC apartment kitchen preparing bruschetta. Show hands arranging fresh tomatoes, basil, and garlic on toasted bread. Cluttered but charming kitchen with cookbook open to Julia Child's recipe. Natural window light, warm and inviting atmosphere. 1200x800 resolution.",
+      "style": "Nora Ephron aesthetic, warm domestic lighting",
+      "dimensions": "1200x800"
+    },
+    {
+      "filename": "big-night-timpano.jpg",
+      "movie": "Big Night",
+      "scene": "Timpano preparation",
+      "prompt": "Photorealistic scene of Italian chefs in 1950s restaurant kitchen unveiling a massive timpano (drum-shaped pasta dish). Show the moment of cutting into the layered pasta dome revealing eggs, meatballs, and sauce inside. Professional kitchen setting, warm tungsten lighting, steam and anticipation. 1200x800 resolution.",
+      "style": "1950s cinematography, warm Italian restaurant atmosphere",
+      "dimensions": "1200x800"
+    },
+    {
+      "filename": "eat-pray-love-spaghetti.jpg",
+      "movie": "Eat Pray Love",
+      "scene": "Rome spaghetti scene",
+      "prompt": "Photorealistic scene of a woman joyfully eating spaghetti at an outdoor Roman trattoria. Show the moment of twirling pasta on a fork, simple tomato sauce, checkered tablecloth, Italian street in soft focus background. Golden hour lighting, travel photography aesthetic. 1200x800 resolution.",
+      "style": "Travel photography, golden hour, Italian warmth",
+      "dimensions": "1200x800"
+    },
+    {
+      "filename": "hundred-foot-journey-fusion.jpg",
+      "movie": "The Hundred-Foot Journey",
+      "scene": "Indian-French fusion cooking",
+      "prompt": "Photorealistic professional kitchen scene showing the preparation of Indian-French fusion cuisine. Colorful Indian spices meeting French techniques, saffron-infused sauce being drizzled over a French-style plated dish. Two chefs collaborating, warm kitchen lighting, steam and aromatic atmosphere. 1200x800 resolution.",
+      "style": "Lasse Hallström cinematography, warm cross-cultural aesthetic",
+      "dimensions": "1200x800"
+    },
+    {
+      "filename": "burnt-fine-dining.jpg",
+      "movie": "Burnt",
+      "scene": "Fine dining plating",
+      "prompt": "Photorealistic extreme close-up of meticulous Michelin-star plating. Chef's hands with tweezers placing microgreens on an artistic dish. Stainless steel kitchen, dramatic lighting, intense focus. Show the precision and artistry of high-end cuisine. 1200x800 resolution.",
+      "style": "High contrast, dramatic lighting, professional kitchen aesthetic",
+      "dimensions": "1200x800"
+    },
+    {
+      "filename": "no-reservations-kitchen.jpg",
+      "movie": "No Reservations",
+      "scene": "Professional kitchen scene",
+      "prompt": "Photorealistic busy professional kitchen during dinner service. Female chef in whites checking dishes at the pass, multiple cooks working stations in background. Steam, movement, warm kitchen lighting mixed with heat lamps. New York restaurant energy. 1200x800 resolution.",
+      "style": "Scott Hicks direction, professional kitchen realism",
+      "dimensions": "1200x800"
+    }
+  ],
+  "collections": [
+    {
+      "filename": "collection-date-night.jpg",
+      "title": "Date Night",
+      "prompt": "Photorealistic romantic restaurant collage featuring multiple intimate dining moments. Candlelit tables, wine glasses clinking, couples sharing desserts, soft bokeh lights in background. Include elements like oysters, chocolate fondue, champagne. Warm romantic lighting throughout. 1600x900 resolution.",
+      "style": "Romantic, soft focus, warm candlelight aesthetic",
+      "dimensions": "1600x900"
+    },
+    {
+      "filename": "collection-international.jpg",
+      "title": "International Cuisine",
+      "prompt": "Photorealistic collage showcasing global cuisine diversity. Include Japanese sushi, Italian pasta, Indian curry, French pastries, Mexican tacos, Thai noodles arranged in an artistic grid. Vibrant colors, each dish lit to highlight its unique characteristics. World map subtly visible in background. 1600x900 resolution.",
+      "style": "Vibrant, diverse, travel photography aesthetic",
+      "dimensions": "1600x900"
+    },
+    {
+      "filename": "collection-comfort-food.jpg",
+      "title": "Comfort Food",
+      "prompt": "Photorealistic collage of hearty comfort foods. Include mac and cheese, chicken soup, grilled cheese, apple pie, hot chocolate. Warm, cozy kitchen settings, soft natural light, rustic textures. Evoke feelings of home and nostalgia. 1600x900 resolution.",
+      "style": "Warm, nostalgic, homestyle photography",
+      "dimensions": "1600x900"
+    },
+    {
+      "filename": "collection-oscar-winners.jpg",
+      "title": "Oscar Winners",
+      "prompt": "Photorealistic elegant collage of gourmet dishes from Oscar-winning films. Include champagne, caviar, elaborate French cuisine, fine dining presentations. Gold accents, dramatic lighting reminiscent of award ceremonies. Luxurious and sophisticated atmosphere. 1600x900 resolution.",
+      "style": "Luxurious, gold-tinted, Academy Awards aesthetic",
+      "dimensions": "1600x900"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+<svg width="600" height="800" viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="collectionGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B0000;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#FFD700;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#87A96B;stop-opacity:0.3" />
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#000" opacity="0.05"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="800" fill="url(#collectionGradient)"/>
+  <rect width="600" height="800" fill="url(#dots)"/>
+  
+  <!-- Border frame -->
+  <rect x="20" y="20" width="560" height="760" fill="none" stroke="#8B0000" stroke-width="2" opacity="0.3" stroke-dasharray="10,5"/>
+  
+  <!-- Collection icon grid -->
+  <g transform="translate(300, 350)">
+    <!-- Top row -->
+    <g transform="translate(-80, -80)">
+      <rect x="-25" y="-35" width="50" height="70" rx="5" fill="#8B0000" opacity="0.2"/>
+      <circle cx="0" cy="-10" r="15" fill="#FFD700" opacity="0.3"/>
+    </g>
+    <g transform="translate(80, -80)">
+      <rect x="-25" y="-35" width="50" height="70" rx="5" fill="#87A96B" opacity="0.2"/>
+      <ellipse cx="0" cy="-10" rx="20" ry="10" fill="#FFD700" opacity="0.3"/>
+    </g>
+    
+    <!-- Bottom row -->
+    <g transform="translate(-80, 80)">
+      <rect x="-25" y="-35" width="50" height="70" rx="5" fill="#FFD700" opacity="0.2"/>
+      <path d="M -15,-20 Q 0,-30 15,-20 L 10,0 L -10,0 Z" fill="#8B0000" opacity="0.3"/>
+    </g>
+    <g transform="translate(80, 80)">
+      <rect x="-25" y="-35" width="50" height="70" rx="5" fill="#36454F" opacity="0.2"/>
+      <rect x="-10" y="-20" width="20" height="25" rx="2" fill="#87A96B" opacity="0.3"/>
+    </g>
+  </g>
+  
+  <!-- Title placeholder -->
+  <rect x="150" y="550" width="300" height="30" rx="15" fill="#8B0000" opacity="0.2"/>
+  
+  <!-- Subtitle placeholder -->
+  <rect x="100" y="600" width="400" height="20" rx="10" fill="#36454F" opacity="0.1"/>
+  <rect x="120" y="630" width="360" height="20" rx="10" fill="#36454F" opacity="0.1"/>
+  
+  <!-- Loading text -->
+  <text x="300" y="720" font-family="Arial, sans-serif" font-size="14" fill="#36454F" text-anchor="middle" opacity="0.5">Loading Collection...</text>
+</svg>

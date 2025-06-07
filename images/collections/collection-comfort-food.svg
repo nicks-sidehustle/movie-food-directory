@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <!-- Background gradient -->
+  <defs>
+    <radialGradient id="warmGlow" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" style="stop-color:#FF8C00;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#8B4513;stop-opacity:0.8" />
+    </radialGradient>
+    <linearGradient id="cozyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#D2691E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B4513;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="800" fill="#2F1B14"/>
+  <rect width="600" height="800" fill="url(#warmGlow)"/>
+  
+  <!-- Kitchen table texture -->
+  <g opacity="0.2">
+    <rect x="0" y="400" width="600" height="400" fill="#8B4513"/>
+    <line x1="0" y1="450" x2="600" y2="450" stroke="#654321" stroke-width="2"/>
+    <line x1="0" y1="500" x2="600" y2="500" stroke="#654321" stroke-width="2"/>
+    <line x1="0" y1="550" x2="600" y2="550" stroke="#654321" stroke-width="2"/>
+  </g>
+  
+  <!-- Main bowl -->
+  <g transform="translate(300, 350)">
+    <!-- Bowl shadow -->
+    <ellipse cx="0" cy="80" rx="140" ry="30" fill="#000000" opacity="0.3"/>
+    
+    <!-- Bowl -->
+    <path d="M-120,0 Q-120,60 0,80 Q120,60 120,0 Z" fill="url(#cozyGradient)"/>
+    <ellipse cx="0" cy="0" rx="120" ry="40" fill="#D2691E"/>
+    
+    <!-- Steam -->
+    <g opacity="0.6">
+      <path d="M-40,-20 Q-45,-40 -40,-60 Q-35,-80 -40,-100" 
+            fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+      <path d="M0,-20 Q-5,-40 0,-60 Q5,-80 0,-100" 
+            fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+      <path d="M40,-20 Q45,-40 40,-60 Q35,-80 40,-100" 
+            fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  </g>
+  
+  <!-- Food elements -->
+  <g transform="translate(300, 350)">
+    <!-- Soup/stew content -->
+    <ellipse cx="0" cy="0" rx="110" ry="35" fill="#8B4513" opacity="0.8"/>
+    
+    <!-- Floating ingredients -->
+    <circle cx="-30" cy="-10" r="15" fill="#FF6347" opacity="0.8"/> <!-- Tomato -->
+    <rect x="20" y="-15" width="25" height="25" rx="3" fill="#FFA500" opacity="0.8"/> <!-- Carrot -->
+    <ellipse cx="-50" cy="10" rx="20" ry="15" fill="#228B22" opacity="0.8"/> <!-- Herb -->
+  </g>
+  
+  <!-- Bread slice -->
+  <g transform="translate(150, 450)">
+    <rect x="0" y="0" width="80" height="60" rx="10" fill="#DEB887"/>
+    <rect x="10" y="10" width="60" height="40" rx="5" fill="#F5DEB3"/>
+    <!-- Bread texture -->
+    <circle cx="25" cy="25" r="3" fill="#D2691E" opacity="0.3"/>
+    <circle cx="45" cy="30" r="2" fill="#D2691E" opacity="0.3"/>
+    <circle cx="35" cy="35" r="3" fill="#D2691E" opacity="0.3"/>
+  </g>
+  
+  <!-- Spoon -->
+  <g transform="translate(420, 380)">
+    <ellipse cx="0" cy="0" rx="25" ry="35" fill="#C0C0C0" transform="rotate(30)"/>
+    <rect x="-5" y="30" width="10" height="60" fill="#C0C0C0" transform="rotate(30)"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <g opacity="0.4">
+    <!-- Heart for homestyle feeling -->
+    <path d="M300,150 C300,130 280,120 270,130 C260,120 240,130 240,150 C240,170 270,190 300,210 C330,190 360,170 360,150 C360,130 340,120 330,130 C320,120 300,130 300,150 Z" 
+          fill="#FF6347"/>
+  </g>
+  
+  <!-- Title placeholder -->
+  <text x="300" y="700" font-family="Arial, sans-serif" font-size="36" fill="#FFA500" text-anchor="middle" font-weight="bold">
+    Comfort Food
+  </text>
+  <text x="300" y="740" font-family="Arial, sans-serif" font-size="24" fill="#DEB887" text-anchor="middle">
+    Collection
+  </text>
+</svg>

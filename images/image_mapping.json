@@ -1,0 +1,94 @@
+{
+  "Goodfellas": [
+    {
+      "url": "/images/scenes/goodfellas-prison-dinner.svg",
+      "alt": "Goodfellas prison dinner scene with elaborate Italian meal",
+      "caption": "The famous prison dinner scene from Goodfellas",
+      "source": "Generated placeholder"
+    }
+  ],
+  "Ratatouille": [
+    {
+      "url": "/images/downloaded/ratatouille-.webp",
+      "alt": "Ratatouille food scene",
+      "caption": "Ratatouille cooking scene",
+      "source": "https://www.eatthis.com/iconic-food-scenes-movies/"
+    },
+    {
+      "url": "/images/scenes/ratatouille-final-dish.svg", 
+      "alt": "Anton Ego tasting ratatouille in final scene",
+      "caption": "The transformative moment when Anton Ego tastes Remy's ratatouille",
+      "source": "Generated placeholder"
+    }
+  ],
+  "Pulp Fiction": [
+    {
+      "url": "/images/scenes/pulp-fiction-burger.svg",
+      "alt": "Jules Winnfield eating Big Kahuna Burger",
+      "caption": "This is a tasty burger! - Jules Winnfield",
+      "source": "Generated placeholder"
+    }
+  ],
+  "Chef": [
+    {
+      "url": "/images/scenes/chef-pasta.svg",
+      "alt": "Jon Favreau preparing pasta aglio e olio",
+      "caption": "The sensual pasta preparation scene from Chef",
+      "source": "Generated placeholder"
+    }
+  ],
+  "Julie & Julia": [
+    {
+      "url": "/images/scenes/julie-julia-bruschetta.svg",
+      "alt": "Amy Adams preparing bruschetta in Julie & Julia",
+      "caption": "Julie Powell making bruschetta in her apartment",
+      "source": "Generated placeholder"
+    }
+  ],
+  "Big Night": [
+    {
+      "url": "/images/scenes/big-night-timpano.svg",
+      "alt": "The elaborate timpano preparation from Big Night",
+      "caption": "The centerpiece timpano from Big Night",
+      "source": "Generated placeholder"
+    }
+  ],
+  "Eat Pray Love": [
+    {
+      "url": "/images/downloaded/eat-pray-love-eat-pray-love-spaghetti-scene.webp",
+      "alt": "Julia Roberts eating spaghetti in Rome",
+      "caption": "The iconic spaghetti scene from Eat Pray Love",
+      "source": "https://www.eatthis.com/iconic-food-scenes-movies/"
+    },
+    {
+      "url": "/images/downloaded/eat-pray-love-eat-pray-love-pizza-scene.webp", 
+      "alt": "Pizza scene from Eat Pray Love",
+      "caption": "Enjoying pizza in Italy",
+      "source": "https://www.eatthis.com/iconic-food-scenes-movies/"
+    }
+  ],
+  "The Hundred-Foot Journey": [
+    {
+      "url": "/images/scenes/hundred-foot-journey-spices.svg",
+      "alt": "Hassan cooking with Indian spices",
+      "caption": "The fusion of Indian and French cuisine",
+      "source": "Generated placeholder"
+    }
+  ],
+  "Burnt": [
+    {
+      "url": "/images/scenes/burnt-plating.svg",
+      "alt": "Adam Jones meticulously plating a dish",
+      "caption": "The pursuit of culinary perfection in Burnt",
+      "source": "Generated placeholder"
+    }
+  ],
+  "No Reservations": [
+    {
+      "url": "/images/scenes/no-reservations-kitchen.svg",
+      "alt": "Catherine Zeta-Jones in restaurant kitchen",
+      "caption": "Professional kitchen scene from No Reservations",
+      "source": "Generated placeholder"
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food In Movies - Movie Food Scenes Directory</title>
+    <meta name="description" content="Discover iconic food scenes from movies. Explore the delicious intersection of cinema and cuisine.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <h1>Food In Movies</h1>
+            </div>
+            
+            <div class="search-container">
+                <input type="search" class="search-input" placeholder="Search movies, food, or actors..." aria-label="Search">
+                <div class="search-dropdown" aria-live="polite"></div>
+            </div>
+            
+            <ul class="nav-menu">
+                <li><a href="#browse" class="nav-link">Browse</a></li>
+                <li><a href="#collections" class="nav-link">Collections</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#submit" class="nav-link">Submit</a></li>
+            </ul>
+            
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav">
+        <a href="#home" class="mobile-nav-item active">
+            <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+            </svg>
+            <span>Home</span>
+        </a>
+        <a href="#browse" class="mobile-nav-item">
+            <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <rect x="3" y="3" width="7" height="7"></rect>
+                <rect x="14" y="3" width="7" height="7"></rect>
+                <rect x="14" y="14" width="7" height="7"></rect>
+                <rect x="3" y="14" width="7" height="7"></rect>
+            </svg>
+            <span>Browse</span>
+        </a>
+        <a href="#search" class="mobile-nav-item">
+            <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <circle cx="11" cy="11" r="8"></circle>
+                <path d="m21 21-4.35-4.35"></path>
+            </svg>
+            <span>Search</span>
+        </a>
+        <a href="#favorites" class="mobile-nav-item">
+            <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+            </svg>
+            <span>Favorites</span>
+        </a>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h2 class="hero-title">Where Cinema Meets Cuisine</h2>
+                <p class="hero-subtitle">Discover the most iconic food scenes in movie history</p>
+                <button class="btn btn-primary">Explore Scenes</button>
+            </div>
+            <div class="hero-image">
+                <img 
+                    class="hero-img"
+                    src="images/hero/hero-placeholder.svg"
+                    data-src="images/hero/hero-desktop.jpg"
+                    data-srcset="images/hero/hero-mobile.jpg 768w, images/hero/hero-desktop.jpg 1920w"
+                    sizes="(max-width: 768px) 768px, 1920px"
+                    alt="Collage of famous movie food scenes including Ratatouille, Chef, and Julie & Julia"
+                    loading="eager">
+            </div>
+        </section>
+
+        <!-- Filter Section -->
+        <section class="filters-section">
+            <div class="container">
+                <div class="filter-group">
+                    <button class="filter-btn" data-filter="genre">
+                        Genre
+                        <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="filter-dropdown" data-filter-dropdown="genre">
+                        <label><input type="checkbox" value="action"> Action</label>
+                        <label><input type="checkbox" value="comedy"> Comedy</label>
+                        <label><input type="checkbox" value="drama"> Drama</label>
+                        <label><input type="checkbox" value="romance"> Romance</label>
+                        <label><input type="checkbox" value="animation"> Animation</label>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <button class="filter-btn" data-filter="cuisine">
+                        Cuisine
+                        <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="filter-dropdown" data-filter-dropdown="cuisine">
+                        <label><input type="checkbox" value="italian"> Italian</label>
+                        <label><input type="checkbox" value="french"> French</label>
+                        <label><input type="checkbox" value="american"> American</label>
+                        <label><input type="checkbox" value="asian"> Asian</label>
+                        <label><input type="checkbox" value="mexican"> Mexican</label>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <button class="filter-btn" data-filter="decade">
+                        Decade
+                        <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="filter-dropdown" data-filter-dropdown="decade">
+                        <label><input type="checkbox" value="2020s"> 2020s</label>
+                        <label><input type="checkbox" value="2010s"> 2010s</label>
+                        <label><input type="checkbox" value="2000s"> 2000s</label>
+                        <label><input type="checkbox" value="1990s"> 1990s</label>
+                        <label><input type="checkbox" value="1980s"> 1980s</label>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <button class="filter-btn" data-filter="meal">
+                        Meal Type
+                        <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="filter-dropdown" data-filter-dropdown="meal">
+                        <label><input type="checkbox" value="breakfast"> Breakfast</label>
+                        <label><input type="checkbox" value="lunch"> Lunch</label>
+                        <label><input type="checkbox" value="dinner"> Dinner</label>
+                        <label><input type="checkbox" value="dessert"> Dessert</label>
+                        <label><input type="checkbox" value="snack"> Snack</label>
+                    </div>
+                </div>
+
+                <button class="clear-filters">Clear All</button>
+            </div>
+        </section>
+
+        <!-- Content Grid -->
+        <section class="content-section">
+            <div class="container">
+                <div class="view-controls">
+                    <h2 class="section-title">Featured Scenes</h2>
+                    <div class="view-toggle">
+                        <button class="view-btn active" data-view="grid">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <rect x="3" y="3" width="7" height="7"></rect>
+                                <rect x="14" y="3" width="7" height="7"></rect>
+                                <rect x="14" y="14" width="7" height="7"></rect>
+                                <rect x="3" y="14" width="7" height="7"></rect>
+                            </svg>
+                        </button>
+                        <button class="view-btn" data-view="list">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <line x1="8" y1="6" x2="21" y2="6"></line>
+                                <line x1="8" y1="12" x2="21" y2="12"></line>
+                                <line x1="8" y1="18" x2="21" y2="18"></line>
+                                <line x1="3" y1="6" x2="3.01" y2="6"></line>
+                                <line x1="3" y1="12" x2="3.01" y2="12"></line>
+                                <line x1="3" y1="18" x2="3.01" y2="18"></line>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="content-grid" id="content-grid">
+                    <!-- Content cards will be dynamically loaded here -->
+                </div>
+
+                <div class="load-more-container">
+                    <button class="btn btn-secondary" id="load-more">Load More</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Collections Section -->
+        <section id="collections" class="collections-section">
+            <div class="container">
+                <h2 class="section-title">Curated Collections</h2>
+                <div class="collections-grid">
+                    <div class="collection-card">
+                        <div class="collection-image">
+                            <img 
+                            class="collection-image"
+                            src="images/collections/collection-oscar-winners-placeholder.svg"
+                            data-src="images/collections/collection-oscar-winners-placeholder.svg"
+                            alt="Oscar Winners collection - Academy Award-winning films with food scenes"
+                            data-placeholder-type="collection"
+                            loading="lazy">
+                        </div>
+                        <h3>Oscar Winners</h3>
+                        <p>Academy Award-winning films with memorable food moments</p>
+                    </div>
+                    <div class="collection-card">
+                        <div class="collection-image">
+                            <img 
+                            class="collection-image"
+                            src="images/collections/collection-comfort-food-placeholder.svg"
+                            data-src="images/collections/collection-comfort-food-placeholder.svg"
+                            alt="Comfort Food Cinema collection - Heartwarming movies with soul food"
+                            data-placeholder-type="collection"
+                            loading="lazy">
+                        </div>
+                        <h3>Comfort Food Cinema</h3>
+                        <p>Heartwarming movies featuring soul-satisfying dishes</p>
+                    </div>
+                    <div class="collection-card">
+                        <div class="collection-image">
+                            <img 
+                            class="collection-image"
+                            src="images/collections/collection-international-placeholder.svg"
+                            data-src="images/collections/collection-international-placeholder.svg"
+                            alt="International Flavors collection - World cuisine through cinema"
+                            data-placeholder-type="collection"
+                            loading="lazy">
+                        </div>
+                        <h3>International Flavors</h3>
+                        <p>A world tour of cuisine through global cinema</p>
+                    </div>
+                    <div class="collection-card">
+                        <div class="collection-image">
+                            <img 
+                            class="collection-image"
+                            src="images/collections/collection-date-night-placeholder.svg"
+                            data-src="images/collections/collection-date-night-placeholder.svg"
+                            alt="Date Night Picks collection - Romantic dining scenes"
+                            data-placeholder-type="collection"
+                            loading="lazy">
+                        </div>
+                        <h3>Date Night Picks</h3>
+                        <p>Romantic movies with memorable dining scenes</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Food In Movies</h3>
+                    <p>Celebrating the delicious intersection of cinema and cuisine.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#submit">Submit a Scene</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Facebook">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CinemaEats. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Loading Spinner -->
+    <div class="loading-spinner" id="loading-spinner">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/data.js"></script>
+    <script src="js/image-loader.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/filters.js"></script>
+    <script src="js/favorites.js"></script>
+</body>
+</html>

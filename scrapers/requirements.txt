@@ -1,0 +1,33 @@
+# CinemaEats Image Scrapers Requirements
+
+# Core scraping libraries
+aiohttp>=3.8.0
+beautifulsoup4>=4.11.0
+lxml>=4.9.0
+
+# HTML parsing and regex
+html5lib>=1.1
+requests>=2.28.0
+
+# SSL/Security
+certifi>=2022.12.7
+
+# Data handling
+python-dotenv>=0.19.0
+
+# Optional: Database integration (if using Supabase)
+supabase>=1.0.0
+
+# Image processing (optional)
+Pillow>=9.0.0
+
+# JSON handling (built-in)
+# asyncio (built-in)
+# re (built-in)
+# urllib.parse (built-in)
+# datetime (built-in)
+# os (built-in)
+
+# Development/Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0

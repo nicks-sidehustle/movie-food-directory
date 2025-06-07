@@ -1,0 +1,107 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2a2a2a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="grid" width="320" height="180" patternUnits="userSpaceOnUse">
+      <rect width="320" height="180" fill="none" stroke="#333" stroke-width="1" opacity="0.3"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#heroGradient)"/>
+  <rect width="1920" height="1080" fill="url(#grid)"/>
+  
+  <!-- Movie Frame Grid (6 scenes) -->
+  <g opacity="0.8">
+    <!-- Row 1 -->
+    <g transform="translate(320, 270)">
+      <rect x="-150" y="-85" width="300" height="170" rx="8" fill="#8B0000" opacity="0.2"/>
+      <text x="0" y="0" font-family="Arial" font-size="18" fill="#FFD700" text-anchor="middle">Ratatouille</text>
+      <circle cx="0" cy="30" r="20" fill="#FFD700" opacity="0.3"/>
+    </g>
+    
+    <g transform="translate(640, 270)">
+      <rect x="-150" y="-85" width="300" height="170" rx="8" fill="#FFD700" opacity="0.2"/>
+      <text x="0" y="0" font-family="Arial" font-size="18" fill="#8B0000" text-anchor="middle">Chef</text>
+      <path d="M -30,20 Q 0,10 30,20 L 20,40 L -20,40 Z" fill="#87A96B" opacity="0.3"/>
+    </g>
+    
+    <g transform="translate(960, 270)">
+      <rect x="-150" y="-85" width="300" height="170" rx="8" fill="#87A96B" opacity="0.2"/>
+      <text x="0" y="0" font-family="Arial" font-size="18" fill="#FFD700" text-anchor="middle">Julie & Julia</text>
+      <ellipse cx="0" cy="30" rx="25" ry="15" fill="#8B0000" opacity="0.3"/>
+    </g>
+    
+    <!-- Row 2 -->
+    <g transform="translate(1280, 270)">
+      <rect x="-150" y="-85" width="300" height="170" rx="8" fill="#36454F" opacity="0.3"/>
+      <text x="0" y="0" font-family="Arial" font-size="18" fill="#FFD700" text-anchor="middle">Goodfellas</text>
+      <rect x="-20" y="15" width="40" height="30" rx="4" fill="#FFD700" opacity="0.3"/>
+    </g>
+    
+    <g transform="translate(1600, 270)">
+      <rect x="-150" y="-85" width="300" height="170" rx="8" fill="#8B0000" opacity="0.2"/>
+      <text x="0" y="0" font-family="Arial" font-size="18" fill="#87A96B" text-anchor="middle">Tampopo</text>
+      <circle cx="0" cy="30" r="18" fill="#87A96B" opacity="0.3"/>
+    </g>
+    
+    <g transform="translate(320, 540)">
+      <rect x="-150" y="-85" width="300" height="170" rx="8" fill="#FFD700" opacity="0.2"/>
+      <text x="0" y="0" font-family="Arial" font-size="18" fill="#36454F" text-anchor="middle">Big Night</text>
+      <ellipse cx="0" cy="30" rx="30" ry="20" fill="#8B0000" opacity="0.3"/>
+    </g>
+  </g>
+  
+  <!-- Center Title -->
+  <g transform="translate(960, 540)">
+    <rect x="-250" y="-60" width="500" height="120" rx="10" fill="#000" opacity="0.5"/>
+    <text x="0" y="-10" font-family="Arial" font-size="42" fill="#FFD700" text-anchor="middle" font-weight="bold">CinemaEats</text>
+    <text x="0" y="25" font-family="Arial" font-size="20" fill="#fff" text-anchor="middle" opacity="0.8">Iconic Food Moments in Film</text>
+  </g>
+  
+  <!-- Film strip decoration -->
+  <rect x="0" y="0" width="1920" height="60" fill="#000" opacity="0.7"/>
+  <rect x="0" y="1020" width="1920" height="60" fill="#000" opacity="0.7"/>
+  
+  <!-- Film perforations -->
+  <g id="perforation">
+    <rect x="20" y="15" width="30" height="30" rx="4" fill="#fff" opacity="0.2"/>
+  </g>
+  <g id="perf-row">
+    <use href="#perforation" x="0"/>
+    <use href="#perforation" x="60"/>
+    <use href="#perforation" x="120"/>
+    <use href="#perforation" x="180"/>
+    <use href="#perforation" x="240"/>
+    <use href="#perforation" x="300"/>
+    <use href="#perforation" x="360"/>
+    <use href="#perforation" x="420"/>
+    <use href="#perforation" x="480"/>
+    <use href="#perforation" x="540"/>
+    <use href="#perforation" x="600"/>
+    <use href="#perforation" x="660"/>
+    <use href="#perforation" x="720"/>
+    <use href="#perforation" x="780"/>
+    <use href="#perforation" x="840"/>
+    <use href="#perforation" x="900"/>
+    <use href="#perforation" x="960"/>
+    <use href="#perforation" x="1020"/>
+    <use href="#perforation" x="1080"/>
+    <use href="#perforation" x="1140"/>
+    <use href="#perforation" x="1200"/>
+    <use href="#perforation" x="1260"/>
+    <use href="#perforation" x="1320"/>
+    <use href="#perforation" x="1380"/>
+    <use href="#perforation" x="1440"/>
+    <use href="#perforation" x="1500"/>
+    <use href="#perforation" x="1560"/>
+    <use href="#perforation" x="1620"/>
+    <use href="#perforation" x="1680"/>
+    <use href="#perforation" x="1740"/>
+    <use href="#perforation" x="1800"/>
+  </g>
+  <use href="#perf-row" y="1020"/>
+</svg>
