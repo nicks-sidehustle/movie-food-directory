@@ -42,6 +42,19 @@ class ImageLoader {
             this.addSkeletonState(img);
             this.imageObserver.observe(img);
         });
+        
+        // Also handle regular images without data-src
+        const regularImages = document.querySelectorAll('img:not([data-src])');
+        regularImages.forEach(img => {
+            if (!img.complete) {
+                img.addEventListener('load', () => {
+                    img.classList.add('loaded');
+                });
+                img.addEventListener('error', () => {
+                    this.handleImageError(img);
+                });
+            }
+        });
     }
     
     loadImage(img) {

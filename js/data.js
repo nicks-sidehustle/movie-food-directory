@@ -15,7 +15,7 @@ const movieScenes = [
             timestamp: "1:17:30",
             description: "The iconic prison dinner scene where Paulie slices garlic with a razor blade, Vinnie makes the sauce, and Johnny Dio does the meat. A masterclass in making prison food look gourmet.",
             foodItems: ["Pasta", "Tomato Sauce", "Steak", "Garlic", "Wine"],
-            thumbnailUrl: "images/real-images/scenes/goodfellas-prison-dinner.jpg",
+            thumbnailUrl: "images/scenes/goodfellas-prison-dinner.jpg",
             thumbnailAlt: "Goodfellas prison dinner scene - preparing pasta with garlic",
             videoUrl: "#",
             significance: "Shows how the mob maintains their lifestyle and standards even behind bars"
@@ -42,7 +42,7 @@ const movieScenes = [
             timestamp: "1:45:00",
             description: "Remy prepares the rustic ratatouille dish that wins over the harsh food critic Anton Ego, transporting him back to his childhood.",
             foodItems: ["Ratatouille", "Vegetables", "Herbs"],
-            thumbnailUrl: "images/real-images/scenes/ratatouille-final-dish.jpg",
+            thumbnailUrl: "images/scenes/ratatouille-final-dish.jpg",
             thumbnailAlt: "Ratatouille - Anton Ego tasting the ratatouille dish",
             videoUrl: "#",
             significance: "Demonstrates how simple, heartfelt cooking can evoke powerful memories and emotions"
@@ -69,7 +69,7 @@ const movieScenes = [
             timestamp: "0:25:00",
             description: "Jules takes a bite of Brett's Big Kahuna Burger and washes it down with Sprite, creating one of cinema's most tension-filled food moments.",
             foodItems: ["Big Kahuna Burger", "Sprite", "French Fries"],
-            thumbnailUrl: "images/real-images/scenes/pulp-fiction-burger.jpg",
+            thumbnailUrl: "images/scenes/pulp-fiction-burger.jpg",
             thumbnailAlt: "Pulp Fiction - Jules eating Big Kahuna Burger",
             videoUrl: "#",
             significance: "Uses food as a power play and intimidation tactic before violence"
@@ -96,7 +96,7 @@ const movieScenes = [
             timestamp: "0:15:00",
             description: "Julia Child discovers the simple perfection of French bruschetta topped with fresh tomatoes in a Parisian café.",
             foodItems: ["Bruschetta", "Tomatoes", "Bread", "Olive Oil"],
-            thumbnailUrl: "images/real-images/scenes/julie-julia-bruschetta.jpg",
+            thumbnailUrl: "images/scenes/julie-julia-bruschetta.jpg",
             thumbnailAlt: "Julie & Julia - Julia Child's first bruschetta in Paris",
             videoUrl: "#",
             significance: "Marks Julia's culinary awakening and love affair with French cuisine"
@@ -123,7 +123,7 @@ const movieScenes = [
             timestamp: "0:45:00",
             description: "Chihiro's parents transform into pigs after greedily devouring the spirit world feast laid out before them.",
             foodItems: ["Various Japanese dishes", "Dumplings", "Roasted meats"],
-            thumbnailUrl: "images/real-images/scenes/spirited-away-feast.jpg",
+            thumbnailUrl: "images/scenes/spirited-away-feast.jpg",
             thumbnailAlt: "Spirited Away - Parents transforming while eating spirit food",
             videoUrl: "#",
             significance: "Warning about greed and gluttony with stunning animated food"
@@ -150,7 +150,7 @@ const movieScenes = [
             timestamp: "0:30:00",
             description: "Liz Gilbert enjoys her first authentic Neapolitan pizza in Italy, embracing pleasure without guilt.",
             foodItems: ["Margherita Pizza", "Wine"],
-            thumbnailUrl: "images/downloaded/eat-pray-love-eat-pray-love-spaghetti-scene.webp",
+            thumbnailUrl: "images/scenes/eat-pray-love-pizza.jpg",
             thumbnailAlt: "Eat Pray Love - Elizabeth Gilbert eating pizza in Naples",
             videoUrl: "#",
             significance: "Represents self-discovery and the joy of indulgence"
@@ -177,7 +177,7 @@ const movieScenes = [
             timestamp: "0:45:00",
             description: "Carl Casper makes pasta aglio e olio for Molly, sharing a intimate moment over simple, perfect pasta.",
             foodItems: ["Pasta", "Garlic", "Olive Oil", "Parsley", "Red Pepper"],
-            thumbnailUrl: "images/real-images/scenes/chef-pasta-aglio.jpg",
+            thumbnailUrl: "images/scenes/chef-pasta-aglio.jpg",
             thumbnailAlt: "Chef - Carl making pasta aglio e olio for Molly",
             videoUrl: "#",
             significance: "Shows how cooking for someone is an act of love"
@@ -204,7 +204,7 @@ const movieScenes = [
             timestamp: "1:20:00",
             description: "The brothers unveil the timpano, a massive drum-shaped pasta creation that represents their culinary ambitions.",
             foodItems: ["Timpano", "Pasta", "Eggs", "Meatballs", "Hard-boiled eggs"],
-            thumbnailUrl: "images/real-images/scenes/big-night-timpano.jpg",
+            thumbnailUrl: "images/scenes/big-night-timpano.jpg",
             thumbnailAlt: "Big Night - The timpano reveal moment",
             videoUrl: "#",
             significance: "The ultimate expression of Italian-American culinary artistry"
@@ -231,7 +231,7 @@ const movieScenes = [
             timestamp: "0:10:00",
             description: "The ramen master teaches the proper way to appreciate ramen, from admiring to slurping.",
             foodItems: ["Ramen", "Noodles", "Pork", "Egg", "Green Onions"],
-            thumbnailUrl: "images/scenes/tampopo-ramen-placeholder.svg",
+            thumbnailUrl: "images/scenes/tampopo-ramen.jpg",
             thumbnailAlt: "Tampopo - Master teaching proper ramen appreciation",
             videoUrl: "#",
             significance: "Elevates ramen eating to an art form"
@@ -258,7 +258,7 @@ const movieScenes = [
             timestamp: "0:35:00",
             description: "The perfectly pink Mendl's pastry boxes reveal exquisite courtesan au chocolat pastries.",
             foodItems: ["Courtesan au Chocolat", "Pastries"],
-            thumbnailUrl: "images/scenes/grand-budapest-pastries-placeholder.svg",
+            thumbnailUrl: "images/scenes/grand-budapest-pastries.jpg",
             thumbnailAlt: "Grand Budapest Hotel - Mendl's courtesan au chocolat pastries",
             videoUrl: "#",
             significance: "Wes Anderson's aesthetic perfection extends to confectionery"
@@ -285,7 +285,7 @@ const movieScenes = [
             timestamp: "1:05:00",
             description: "Hassan combines Indian spices with French cooking techniques, creating a fusion that wins over Madame Mallory.",
             foodItems: ["French-Indian Fusion", "Spices", "Sauces"],
-            thumbnailUrl: "images/scenes/hundred-foot-journey-fusion-placeholder.svg",
+            thumbnailUrl: "images/scenes/hundred-foot-journey-fusion.jpg",
             thumbnailAlt: "The Hundred-Foot Journey - Hassan's fusion cooking",
             videoUrl: "#",
             significance: "Bridges cultures through culinary innovation"
@@ -312,7 +312,7 @@ const movieScenes = [
             timestamp: "0:55:00",
             description: "Adam Jones meticulously plates a dish with surgical precision, pursuing his third Michelin star.",
             foodItems: ["Fine Dining", "Gourmet Plating"],
-            thumbnailUrl: "images/scenes/burnt-fine-dining-placeholder.svg",
+            thumbnailUrl: "images/scenes/burnt-fine-dining.jpg",
             thumbnailAlt: "Burnt - Adam Jones plating fine dining dish",
             videoUrl: "#",
             significance: "The obsessive pursuit of culinary perfection"
@@ -339,7 +339,7 @@ const movieScenes = [
             timestamp: "0:40:00",
             description: "Kate prepares a perfect dish in her controlled kitchen environment, showing her culinary expertise.",
             foodItems: ["Gourmet American", "Professional Kitchen"],
-            thumbnailUrl: "images/scenes/no-reservations-kitchen-placeholder.svg",
+            thumbnailUrl: "images/scenes/no-reservations-kitchen.jpg",
             thumbnailAlt: "No Reservations - Kate in professional kitchen",
             videoUrl: "#",
             significance: "Professional kitchen dynamics and perfection"
