@@ -117,7 +117,7 @@ class ImageLoader {
             this.loadImage(img);
         } else {
             // Use SVG placeholder
-            const placeholderPath = `/images/placeholders/placeholder-${placeholderType}.svg`;
+            const placeholderPath = `images/placeholders/placeholder-${placeholderType}.svg`;
             img.src = placeholderPath;
             img.classList.remove('skeleton-img');
             img.classList.add('placeholder-img');
