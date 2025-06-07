@@ -113,7 +113,7 @@ class FoodInMovies {
                 <div class="card-image">
                     <img 
                         class="scene-image"
-                        src="/images/placeholders/placeholder-scene.svg"
+                        src="images/placeholders/placeholder-scene.svg"
                         data-src="${sceneData.thumbnailUrl}"
                         data-srcset="${window.imageLoader ? window.imageLoader.generateSrcset(sceneData.thumbnailUrl) : ''}"
                         alt="${sceneData.thumbnailAlt || `${movie.title} - ${sceneData.foodItems[0]} scene`}"

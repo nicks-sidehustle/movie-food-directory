@@ -123,7 +123,7 @@ const movieScenes = [
             timestamp: "0:45:00",
             description: "Chihiro's parents transform into pigs after greedily devouring the spirit world feast laid out before them.",
             foodItems: ["Various Japanese dishes", "Dumplings", "Roasted meats"],
-            thumbnailUrl: "images/scenes/spirited-away-feast-placeholder.svg",
+            thumbnailUrl: "images/real-images/scenes/spirited-away-feast.jpg",
             thumbnailAlt: "Spirited Away - Parents transforming while eating spirit food",
             videoUrl: "#",
             significance: "Warning about greed and gluttony with stunning animated food"
@@ -150,7 +150,7 @@ const movieScenes = [
             timestamp: "0:30:00",
             description: "Liz Gilbert enjoys her first authentic Neapolitan pizza in Italy, embracing pleasure without guilt.",
             foodItems: ["Margherita Pizza", "Wine"],
-            thumbnailUrl: "images/scenes/eat-pray-love-spaghetti-placeholder.svg",
+            thumbnailUrl: "images/downloaded/eat-pray-love-eat-pray-love-spaghetti-scene.webp",
             thumbnailAlt: "Eat Pray Love - Elizabeth Gilbert eating pizza in Naples",
             videoUrl: "#",
             significance: "Represents self-discovery and the joy of indulgence"
@@ -177,7 +177,7 @@ const movieScenes = [
             timestamp: "0:45:00",
             description: "Carl Casper makes pasta aglio e olio for Molly, sharing a intimate moment over simple, perfect pasta.",
             foodItems: ["Pasta", "Garlic", "Olive Oil", "Parsley", "Red Pepper"],
-            thumbnailUrl: "images/scenes/chef-pasta-aglio-placeholder.svg",
+            thumbnailUrl: "images/real-images/scenes/chef-pasta-aglio.jpg",
             thumbnailAlt: "Chef - Carl making pasta aglio e olio for Molly",
             videoUrl: "#",
             significance: "Shows how cooking for someone is an act of love"
@@ -204,7 +204,7 @@ const movieScenes = [
             timestamp: "1:20:00",
             description: "The brothers unveil the timpano, a massive drum-shaped pasta creation that represents their culinary ambitions.",
             foodItems: ["Timpano", "Pasta", "Eggs", "Meatballs", "Hard-boiled eggs"],
-            thumbnailUrl: "images/scenes/big-night-timpano-placeholder.svg",
+            thumbnailUrl: "images/real-images/scenes/big-night-timpano.jpg",
             thumbnailAlt: "Big Night - The timpano reveal moment",
             videoUrl: "#",
             significance: "The ultimate expression of Italian-American culinary artistry"
