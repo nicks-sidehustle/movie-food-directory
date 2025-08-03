@@ -15,7 +15,7 @@ const movieScenes = [
             timestamp: "1:17:30",
             description: "The iconic prison dinner scene where Paulie slices garlic with a razor blade, Vinnie makes the sauce, and Johnny Dio does the meat. A masterclass in making prison food look gourmet.",
             foodItems: ["Pasta", "Tomato Sauce", "Steak", "Garlic", "Wine"],
-            thumbnailUrl: "images/scenes/goodfellas-prison-dinner.jpg",
+            thumbnailUrl: "images/scenes/garlic_razor_352x192.png",
             thumbnailAlt: "Goodfellas prison dinner scene - preparing pasta with garlic",
             videoUrl: "#",
             significance: "Shows how the mob maintains their lifestyle and standards even behind bars"
@@ -42,7 +42,7 @@ const movieScenes = [
             timestamp: "1:45:00",
             description: "Remy prepares the rustic ratatouille dish that wins over the harsh food critic Anton Ego, transporting him back to his childhood.",
             foodItems: ["Ratatouille", "Vegetables", "Herbs"],
-            thumbnailUrl: "images/scenes/ratatouille-final-dish.jpg",
+            thumbnailUrl: "images/scenes/ratatouille-confit-byaldi.jpg",
             thumbnailAlt: "Ratatouille - Anton Ego tasting the ratatouille dish",
             videoUrl: "#",
             significance: "Demonstrates how simple, heartfelt cooking can evoke powerful memories and emotions"
