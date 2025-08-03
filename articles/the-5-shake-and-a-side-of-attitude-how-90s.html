@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The $5 Shake and a Side of Attitude: How '90s Movies Served Up a Whole New Vibe</title>
-    <link rel="stylesheet" href="../css/style.css">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HX311XWNS7"></script>
     <script>
@@ -14,110 +13,308 @@
 
       gtag('config', 'G-HX311XWNS7');
     </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        popcorn: '#FFD700',
+                        filmreel: '#333333',
+                        butter: '#FFE135',
+                        soda: '#FF5733',
+                        candy: '#FF69B4',
+                    },
+                    fontFamily: {
+                        'movie': ['"Bebas Neue"', 'sans-serif'],
+                        'script': ['"Dancing Script"', 'cursive'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400;700&display=swap');
+        
+        .film-strip {
+            background-image: repeating-linear-gradient(
+                to right,
+                #333,
+                #333 20px,
+                #fff 20px,
+                #fff 40px
+            );
+            height: 10px;
+        }
+    </style>
 </head>
-<body>
-
-    <header class="main-header">
-        <div class="container">
-            <a href="../index.html" class="logo">Foods in Movies</a>
-            <nav class="main-nav">
-                <a href="../index.html">Home</a>
-                <a href="../about.html">About</a>
+<body class="bg-gray-100">
+    <!-- Film strip border top -->
+    <div class="film-strip"></div>
+    
+    <!-- Header with marquee effect -->
+    <header class="bg-filmreel text-popcorn py-4 px-6 shadow-lg">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center mb-4 md:mb-0">
+                <i class="fas fa-film text-3xl mr-3"></i>
+                <h1 class="text-4xl font-movie tracking-wider">
+                    <a href="../index.html" class="text-popcorn hover:text-butter transition-colors duration-300">FOODS IN MOVIES</a>
+                </h1>
+            </div>
+            <nav class="font-movie text-lg">
+                <a href="../index.html" class="text-white hover:text-butter transition-colors duration-300 mr-6">
+                    <i class="fas fa-home mr-2"></i>Home
+                </a>
+                <a href="../about.html" class="text-white hover:text-butter transition-colors duration-300">
+                    <i class="fas fa-info-circle mr-2"></i>About
+                </a>
             </nav>
         </div>
     </header>
 
-    <main class="container">
-        <section class="content-page article-content-body">
-            <h1>The $5 Shake and a Side of Attitude: How '90s Movies Served Up a Whole New Vibe</h1>
-            <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?q=80&w=800&auto=format&fit=crop" 
-                 alt="A juicy burger and a tall milkshake on a retro diner table" 
-                 class="hero-article-image">
-            
-            <p><em>What's up, 90s kids! If you remember the screech of a dial-up modem, the angst of grunge rock, and the sheer joy of renting a movie on VHS, then this one's for you.</em></p>
-            
-            <p>The 1990s was a decade of transition—a bridge between the analog past and the digital future. And just like our music and fashion, the food on our screens got a serious attitude adjustment. Gone was the over-the-top excess of the '80s. In its place came a new kind of cool. '90s movie food was ironic, it was comforting, it was surprisingly sophisticated, and it was often the star of the scene.</p>
+    <!-- Article Hero Section -->
+    <section class="relative overflow-hidden bg-gradient-to-r from-purple-900 to-indigo-800 text-white py-16">
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="max-w-4xl mx-auto text-center">
+                <div class="inline-block bg-candy text-white px-4 py-2 rounded-full font-movie text-sm mb-4">
+                    <i class="fas fa-calendar-alt mr-2"></i>90s ATTITUDE
+                </div>
+                <h1 class="text-4xl md:text-6xl font-movie mb-6 leading-tight">
+                    The $5 Shake and a Side of <span class="text-popcorn">Attitude:</span> How '90s Movies Served Up a Whole New Vibe
+                </h1>
+                <p class="text-xl mb-8 text-gray-300 max-w-3xl mx-auto">
+                    What's up, 90s kids! If you remember the screech of a dial-up modem, the angst of grunge rock, and the sheer joy of renting a movie on VHS, then this one's for you.
+                </p>
+                <div class="flex justify-center items-center space-x-6 text-sm text-gray-400">
+                    <span><i class="far fa-clock mr-1"></i> 6 min read</span>
+                    <span><i class="fas fa-user mr-1"></i> Foods in Movies</span>
+                    <span><i class="fas fa-tag mr-1"></i> 90s, Movies, Food, Culture</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <h3>The "Martin and Lewis": A $5 Shake in Pulp Fiction (1994)</h3>
-            <p>"They don't put bourbon in it or nothin'?" Vincent Vega's incredulous question about a five-dollar milkshake at Jack Rabbit Slim's perfectly captures the film's vibe. Pulp Fiction made talking about food cool. The conversations about Quarter Pounders with Cheese in Paris ("Royale with Cheese"), the philosophical debates over bacon, and the divine intervention over a Big Kahuna Burger weren't just filler—they were character.</p>
-            
-            <img src="https://images.unsplash.com/photo-1572490122747-91a03598e104?q=80&w=800&auto=format&fit=crop" 
-                 alt="A tall vanilla milkshake with a red straw and cherry on top in a diner setting" 
-                 class="content-image">
-            
-            <p>The $5 shake scene with Mia Wallace is legendary. It's a moment brimming with tension, flirtation, and understated style. It elevated a simple diner drink into a cultural touchstone, a symbol of retro cool and unexpected luxury.</p>
-
-            <div class="product-section">
-                <h4>Get the Jack Rabbit Slim's Experience:</h4>
-                <ul>
-                    <li>Shake it Up: Make your own legendary shakes at home with a <a href="https://www.amazon.com/s?k=classic+milkshake+maker&tag=greatgearhq-20" target="_blank">classic milkshake maker</a>.</li>
-                    <li>The Burger is the Cornerstone: Craft the perfect "Big Kahuna Burger" with this <a href="https://www.amazon.com/s?k=burger+press&tag=greatgearhq-20" target="_blank">top-rated burger press</a>.</li>
-                    <li>The Ultimate Collection: No 90s film collection is complete without <a href="https://www.amazon.com/s?k=pulp+fiction+blu-ray&tag=greatgearhq-20" target="_blank">Pulp Fiction on Blu-ray</a>.</li>
-                </ul>
+    <!-- Article Content -->
+    <main class="container mx-auto px-6 py-16">
+        <div class="max-w-4xl mx-auto">
+            <!-- Hero Image -->
+            <div class="mb-12">
+                <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?q=80&w=1200&auto=format&fit=crop" 
+                     alt="A juicy burger and a tall milkshake on a retro diner table" 
+                     class="w-full h-64 md:h-96 object-cover rounded-xl shadow-lg border-4 border-candy">
             </div>
 
-            <h3>"Life is Like a Box of Chocolates..." - Forrest Gump (1994)</h3>
-            <p>It's one of the most famous movie lines in history, spoken by Forrest as he sits on a park bench, waiting for a bus. The simple, profound metaphor—"You never know what you're gonna get"—resonated with millions. The box of chocolates represents life's unpredictability, its sweetness, and its occasional nutty surprise.</p>
-            
-            <img src="https://images.unsplash.com/photo-1579558933452-f4fb2b251145?q=80&w=800&auto=format&fit=crop" 
-                 alt="An open box of assorted gourmet chocolates showcasing different shapes and fillings" 
-                 class="content-image">
-            
-            <p>It's a perfect example of how '90s cinema used food not just as a prop, but as a central theme. The entire Bubba Gump shrimp saga turned a simple dessert and a humble crustacean into powerful symbols of fate, friendship, and fortune.</p>
+            <!-- Article Body -->
+            <article class="prose prose-lg max-w-none">
+                <div class="bg-white rounded-xl p-8 shadow-lg mb-8">
+                    <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                        The 1990s was a decade of transition—a bridge between the analog past and the digital future. And just like our music and fashion, the food on our screens got a serious attitude adjustment. Gone was the over-the-top excess of the '80s. In its place came a new kind of cool. '90s movie food was ironic, it was comforting, it was surprisingly sophisticated, and it was often the star of the scene.
+                    </p>
+                </div>
 
-            <div class="product-section">
-                <h4>Recreate the Magic:</h4>
-                <ul>
-                    <li>Life's Sweet Surprises: Treat yourself to a <a href="https://www.amazon.com/s?k=gourmet+chocolate+box+assorted&tag=greatgearhq-20" target="_blank">premium assorted chocolate collection</a>.</li>
-                    <li>Bubba's Legacy: Get the <a href="https://www.amazon.com/s?k=forrest+gump+cookbook&tag=greatgearhq-20" target="_blank">Forrest Gump Cookbook</a> for authentic shrimp recipes.</li>
-                </ul>
-            </div>
+                <!-- Movie Section 1 - Pulp Fiction -->
+                <div class="bg-white rounded-xl p-8 shadow-lg mb-8">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-purple-600 text-white p-3 rounded-full mr-4">
+                            <i class="fas fa-glass-martini text-xl"></i>
+                        </div>
+                        <h2 class="text-3xl font-movie text-filmreel">The "Martin and Lewis": A $5 Shake in Pulp Fiction (1994)</h2>
+                    </div>
+                    
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        "<em>They don't put bourbon in it or nothin'?</em>" Vincent Vega's incredulous question about a five-dollar milkshake at Jack Rabbit Slim's perfectly captures the film's vibe. Pulp Fiction made talking about food cool. The conversations about Quarter Pounders with Cheese in Paris ("Royale with Cheese"), the philosophical debates over bacon, and the divine intervention over a Big Kahuna Burger weren't just filler—they were character.
+                    </p>
+                    
+                    <img src="https://images.unsplash.com/photo-1572490122747-91a03598e104?q=80&w=800&auto=format&fit=crop" 
+                         alt="A tall vanilla milkshake with a red straw and cherry on top in a diner setting" 
+                         class="w-full h-64 object-cover rounded-lg shadow-md mb-6">
+                    
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        The $5 shake scene with Mia Wallace is legendary. It's a moment brimming with tension, flirtation, and understated style. It elevated a simple diner drink into a cultural touchstone, a symbol of retro cool and unexpected luxury. For five bucks, you weren't just getting a milkshake; you were buying into an aesthetic.
+                    </p>
 
-            <h3>The Prison Feast in Goodfellas (1990)</h3>
-            <p>The prison scene in Goodfellas is a masterclass in culinary storytelling. While incarcerated, the wiseguys live better than most people on the outside. Paulie slices garlic with a razor blade so thin it "liquefies in the pan with a little oil." Food here is about power, respect, and maintaining a lifestyle, even behind bars.</p>
-            
-            <img src="https://images.unsplash.com/photo-1621996346565-e3dbc353d2e5?q=80&w=800&auto=format&fit=crop" 
-                 alt="Fresh garlic being sliced thin on a cutting board with olive oil" 
-                 class="content-image">
+                    <!-- Product Section -->
+                    <div class="bg-gradient-to-r from-purple-100 to-pink-100 rounded-lg p-6 border-l-4 border-purple-600">
+                        <h3 class="font-movie text-xl text-filmreel mb-4 flex items-center">
+                            <i class="fas fa-shopping-bag mr-2 text-purple-600"></i>
+                            Get the Jack Rabbit Slim's Experience:
+                        </h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-blender text-purple-600 mr-3 mt-1"></i>
+                                <span>Shake it Up: Make your own legendary shakes at home with a <a href="https://www.amazon.com/s?k=classic+milkshake+maker" target="_blank" class="text-purple-600 hover:text-purple-700 font-bold">classic milkshake maker</a>.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-hamburger text-purple-600 mr-3 mt-1"></i>
+                                <span>The Burger is the Cornerstone: Craft the perfect "Big Kahuna Burger" with this <a href="https://www.amazon.com/s?k=burger+press" target="_blank" class="text-purple-600 hover:text-purple-700 font-bold">top-rated burger press</a>.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-film text-purple-600 mr-3 mt-1"></i>
+                                <span>The Ultimate Collection: No 90s film collection is complete without <a href="https://www.amazon.com/s?k=pulp+fiction+blu-ray" target="_blank" class="text-purple-600 hover:text-purple-700 font-bold">Pulp Fiction on Blu-ray</a>.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
-            <div class="product-section">
-                <h4>Cook Like a Wiseguy:</h4>
-                <ul>
-                    <li>The Razor-Thin Slice: A quality <a href="https://www.amazon.com/s?k=garlic+press+stainless+steel&tag=greatgearhq-20" target="_blank">garlic press</a> can finely mince garlic for that perfect sauce.</li>
-                    <li>The Perfect Pasta: Stock up on high-quality <a href="https://www.amazon.com/s?k=de+cecco+pasta&tag=greatgearhq-20" target="_blank">De Cecco pasta</a>.</li>
-                    <li>Learn from the Best: Get the inside scoop with <a href="https://www.amazon.com/s?k=goodfellas+cookbook&tag=greatgearhq-20" target="_blank">The Goodfellas Cookbook</a>.</li>
-                </ul>
-            </div>
+                <!-- Movie Section 2 - Forrest Gump -->
+                <div class="bg-white rounded-xl p-8 shadow-lg mb-8">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-yellow-600 text-white p-3 rounded-full mr-4">
+                            <i class="fas fa-heart text-xl"></i>
+                        </div>
+                        <h2 class="text-3xl font-movie text-filmreel">"Life is Like a Box of Chocolates..." - Forrest Gump (1994)</h2>
+                    </div>
+                    
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        It's one of the most famous movie lines in history, spoken by Forrest as he sits on a park bench, waiting for a bus. The simple, profound metaphor—"You never know what you're gonna get"—resonated with millions. The box of chocolates represents life's unpredictability, its sweetness, and its occasional nutty surprise.
+                    </p>
+                    
+                    <img src="https://images.unsplash.com/photo-1579558933452-f4fb2b251145?q=80&w=800&auto=format&fit=crop" 
+                         alt="An open box of assorted gourmet chocolates" 
+                         class="w-full h-64 object-cover rounded-lg shadow-md mb-6">
+                    
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        It's a perfect example of how '90s cinema used food not just as a prop, but as a central theme. The entire Bubba Gump shrimp saga turned a simple dessert and a humble crustacean into powerful symbols of fate, friendship, and fortune.
+                    </p>
 
-            <h3>The Glorious Timpano in Big Night (1996)</h3>
-            <p>If you love food and film, Big Night is your holy grail. It tells the story of two immigrant brothers trying to save their failing Italian restaurant with one magnificent feast. The centerpiece is the Timpano—a gargantuan, drum-shaped baked pasta dish filled with ziti, meatballs, sausage, cheese, and salami.</p>
-            
-            <img src="https://images.unsplash.com/photo-1551892374-ecf8c7fea8b8?q=80&w=800&auto=format&fit=crop" 
-                 alt="A rustic Italian pasta dish in a large cast iron pan" 
-                 class="content-image">
-            
-            <p>The preparation of the Timpano is filmed with such reverence that you can almost taste it. The film is a passionate love letter to the artistry of food and staying true to your culinary roots.</p>
+                    <!-- Product Section -->
+                    <div class="bg-gradient-to-r from-yellow-100 to-orange-100 rounded-lg p-6 border-l-4 border-yellow-600">
+                        <h3 class="font-movie text-xl text-filmreel mb-4 flex items-center">
+                            <i class="fas fa-shopping-bag mr-2 text-yellow-600"></i>
+                            Recreate the Magic:
+                        </h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-gift text-yellow-600 mr-3 mt-1"></i>
+                                <span>Life's Sweet Surprises: Treat yourself to a <a href="https://www.amazon.com/s?k=gourmet+chocolate+box+assorted" target="_blank" class="text-yellow-600 hover:text-yellow-700 font-bold">premium assorted chocolate collection</a>.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-book text-yellow-600 mr-3 mt-1"></i>
+                                <span>Bubba's Legacy: Get the <a href="https://www.amazon.com/s?k=forrest+gump+cookbook" target="_blank" class="text-yellow-600 hover:text-yellow-700 font-bold">Forrest Gump Cookbook</a> for authentic shrimp recipes.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
-            <div class="product-section">
-                <h4>Host Your Own Big Night:</h4>
-                <ul>
-                    <li>The Essential Pan: A Timpano requires a deep <a href="https://www.amazon.com/s?k=dutch+oven+enamel&tag=greatgearhq-20" target="_blank">enamel-coated Dutch oven</a> for that perfect shape.</li>
-                    <li>The Movie: A must-watch for any food lover. Stream or buy <a href="https://www.amazon.com/s?k=big+night+movie&tag=greatgearhq-20" target="_blank">Big Night here</a>.</li>
-                </ul>
-            </div>
+                <!-- Movie Section 3 - Goodfellas -->
+                <div class="bg-white rounded-xl p-8 shadow-lg mb-8">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-red-600 text-white p-3 rounded-full mr-4">
+                            <i class="fas fa-wine-bottle text-xl"></i>
+                        </div>
+                        <h2 class="text-3xl font-movie text-filmreel">The Prison Feast in Goodfellas (1990)</h2>
+                    </div>
+                    
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        The prison scene in Goodfellas is a masterclass in culinary storytelling. While incarcerated, the wiseguys live better than most people on the outside. Paulie slices garlic with a razor blade so thin it "liquefies in the pan with a little oil." Food here is about power, respect, and maintaining a lifestyle, even behind bars.
+                    </p>
+                    
+                    <img src="https://images.unsplash.com/photo-1621996346565-e3dbc353d2e5?q=80&w=800&auto=format&fit=crop" 
+                         alt="Fresh garlic being sliced thin on a cutting board with olive oil" 
+                         class="w-full h-64 object-cover rounded-lg shadow-md mb-6">
 
-            <p>The 90s was a decade that set the table for the modern foodie revolution. It taught us that a conversation about a burger can be as compelling as a car chase, and that a simple meal can carry the weight of a lifetime.</p>
+                    <!-- Product Section -->
+                    <div class="bg-gradient-to-r from-red-100 to-orange-100 rounded-lg p-6 border-l-4 border-red-600">
+                        <h3 class="font-movie text-xl text-filmreel mb-4 flex items-center">
+                            <i class="fas fa-shopping-bag mr-2 text-red-600"></i>
+                            Cook Like a Wiseguy:
+                        </h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-cut text-red-600 mr-3 mt-1"></i>
+                                <span>The Razor-Thin Slice: A quality <a href="https://www.amazon.com/s?k=garlic+press+stainless+steel" target="_blank" class="text-red-600 hover:text-red-700 font-bold">garlic press</a> can finely mince garlic for that perfect sauce.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-utensils text-red-600 mr-3 mt-1"></i>
+                                <span>The Perfect Pasta: Stock up on high-quality <a href="https://www.amazon.com/s?k=de+cecco+pasta" target="_blank" class="text-red-600 hover:text-red-700 font-bold">De Cecco pasta</a>.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-book text-red-600 mr-3 mt-1"></i>
+                                <span>Learn from the Best: Get the inside scoop with <a href="https://www.amazon.com/s?k=goodfellas+cookbook" target="_blank" class="text-red-600 hover:text-red-700 font-bold">The Goodfellas Cookbook</a>.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
-            <div class="comment-prompt">
-                <p>So, what's your go-to '90s movie and snack combo? A cheese pizza with Home Alone? Twizzlers with Jurassic Park? Let us know your favorite in the comments below!</p>
-            </div>
-        </section>
+                <!-- Conclusion -->
+                <div class="bg-white rounded-xl p-8 shadow-lg mb-8">
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        The 90s was a decade that set the table for the modern foodie revolution. It taught us that a conversation about a burger can be as compelling as a car chase, and that a simple meal can carry the weight of a lifetime.
+                    </p>
+                </div>
+
+                <!-- Comment Prompt -->
+                <div class="bg-gradient-to-r from-purple-900 to-indigo-800 text-white rounded-xl p-8 text-center">
+                    <i class="fas fa-comments text-4xl text-popcorn mb-4"></i>
+                    <h3 class="font-movie text-2xl mb-4">What's Your 90s Food Memory?</h3>
+                    <p class="text-gray-300 mb-6">
+                        So, what's your go-to '90s movie and snack combo? A cheese pizza with Home Alone? Twizzlers with Jurassic Park?
+                    </p>
+                    <button class="bg-candy hover:bg-pink-600 text-white font-bold px-8 py-3 rounded-full transition duration-300 transform hover:scale-105">
+                        <i class="fas fa-comment mr-2"></i>Share Your Combo
+                    </button>
+                </div>
+            </article>
+        </div>
     </main>
 
-    <footer class="main-footer">
-        <p>© 2025 Foods in Movies. All rights reserved.</p>
-        <p class="disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-white text-xl font-movie mb-4">Foods in Movies</h3>
+                    <p class="mb-4">Exploring the powerful connection between the movies we love and the food we crave.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-movie mb-4">Explore</h4>
+                    <ul class="space-y-2">
+                        <li><a href="../articles/big-hair-big-plates-80s-cinema-food.html" class="hover:text-white">80s Food Scenes</a></li>
+                        <li><a href="../articles/the-5-shake-and-a-side-of-attitude-how-90s.html" class="hover:text-white">90s Diner Culture</a></li>
+                        <li><a href="../articles/80s-movie-food-standalone.html" class="hover:text-white">Comfort Food Classics</a></li>
+                        <li><a href="../about.html" class="hover:text-white">About Us</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-movie mb-4">Categories</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white">By Decade</a></li>
+                        <li><a href="#" class="hover:text-white">By Genre</a></li>
+                        <li><a href="#" class="hover:text-white">By Cuisine</a></li>
+                        <li><a href="#" class="hover:text-white">Behind the Scenes</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-movie mb-4">Connect</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white">Contact Us</a></li>
+                        <li><a href="#" class="hover:text-white">Newsletter</a></li>
+                        <li><a href="#" class="hover:text-white">Write for Us</a></li>
+                        <li><a href="#" class="hover:text-white">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p>&copy; 2025 Foods in Movies. All rights reserved.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <p class="text-sm">As an Amazon Associate I earn from qualifying purchases.</p>
+                </div>
+            </div>
+        </div>
     </footer>
-
+    
+    <!-- Film strip border bottom -->
+    <div class="film-strip"></div>
 </body>
 </html>

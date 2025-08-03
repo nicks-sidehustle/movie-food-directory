@@ -14,10 +14,40 @@
 
       gtag('config', 'G-HX311XWNS7');
     </script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        popcorn: '#FFD700',
+                        filmreel: '#333333',
+                        butter: '#FFE135',
+                        soda: '#FF5733',
+                        candy: '#FF69B4',
+                    },
+                    fontFamily: {
+                        'movie': ['"Bebas Neue"', 'sans-serif'],
+                        'script': ['"Dancing Script"', 'cursive'],
+                    },
+                }
+            }
+        }
+    </script>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400;700&display=swap');
+        
+        .film-strip {
+            background-image: repeating-linear-gradient(
+                to right,
+                #333,
+                #333 20px,
+                #fff 20px,
+                #fff 40px
+            );
+            height: 10px;
+        }
         :root {
             --primary-color: #0d0d0d;
             --secondary-color: #f5f5f5;
@@ -153,9 +183,32 @@
 
     </style>
 </head>
-<body>
+<body class="bg-gray-100">
+    <!-- Film strip border top -->
+    <div class="film-strip"></div>
+    
+    <!-- Header with marquee effect -->
+    <header class="bg-filmreel text-popcorn py-4 px-6 shadow-lg">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center mb-4 md:mb-0">
+                <i class="fas fa-film text-3xl mr-3"></i>
+                <h1 class="text-4xl font-movie tracking-wider">
+                    <a href="../index.html" class="text-popcorn hover:text-butter transition-colors duration-300">FOODS IN MOVIES</a>
+                </h1>
+            </div>
+            <nav class="font-movie text-lg">
+                <a href="../index.html" class="text-white hover:text-butter transition-colors duration-300 mr-6">
+                    <i class="fas fa-home mr-2"></i>Home
+                </a>
+                <a href="../about.html" class="text-white hover:text-butter transition-colors duration-300">
+                    <i class="fas fa-info-circle mr-2"></i>About
+                </a>
+            </nav>
+        </div>
+    </header>
 
-    <div class="container">
+    <div class="container mx-auto px-6 py-16">
+        <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
         <header>
             <h1>Big Hair, Big Plates: The Unforgettable & Totally Awesome Food Moments of '80s Cinema</h1>
         </header>
@@ -233,13 +286,63 @@
                 </div>
             </article>
 
-            <footer>
-                <p class="disclosure">
+            <footer class="bg-gray-50 p-8 mt-8">
+                <p class="text-sm text-gray-600 text-center">
                     <strong>Disclosure:</strong> This post contains affiliate links. If you make a purchase through these links, we may earn a commission at no extra cost to you. We only recommend products we genuinely love and think you will, too! Thanks for supporting our nostalgic deep dives.
                 </p>
             </footer>
         </main>
+        </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-white text-xl font-movie mb-4">Foods in Movies</h3>
+                    <p class="mb-4">Exploring the powerful connection between the movies we love and the food we crave.</p>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-movie mb-4">Explore</h4>
+                    <ul class="space-y-2">
+                        <li><a href="../articles/big-hair-big-plates-80s-cinema-food.html" class="hover:text-white">80s Food Scenes</a></li>
+                        <li><a href="../articles/the-5-shake-and-a-side-of-attitude-how-90s.html" class="hover:text-white">90s Diner Culture</a></li>
+                        <li><a href="../about.html" class="hover:text-white">About Us</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-movie mb-4">Categories</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white">By Decade</a></li>
+                        <li><a href="#" class="hover:text-white">By Genre</a></li>
+                        <li><a href="#" class="hover:text-white">By Cuisine</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-movie mb-4">Connect</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white">Contact Us</a></li>
+                        <li><a href="#" class="hover:text-white">Newsletter</a></li>
+                        <li><a href="#" class="hover:text-white">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p>&copy; 2025 Foods in Movies. All rights reserved.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <p class="text-sm">As an Amazon Associate I earn from qualifying purchases.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Film strip border bottom -->
+    <div class="film-strip"></div>
 
 </body>
 </html>

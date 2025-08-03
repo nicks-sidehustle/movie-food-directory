@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Big Hair, Big Plates: The Unforgettable & Totally Awesome Food Moments of '80s Cinema</title>
-    <link rel="stylesheet" href="../css/style.css">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HX311XWNS7"></script>
     <script>
@@ -14,95 +13,312 @@
 
       gtag('config', 'G-HX311XWNS7');
     </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        popcorn: '#FFD700',
+                        filmreel: '#333333',
+                        butter: '#FFE135',
+                        soda: '#FF5733',
+                        candy: '#FF69B4',
+                    },
+                    fontFamily: {
+                        'movie': ['"Bebas Neue"', 'sans-serif'],
+                        'script': ['"Dancing Script"', 'cursive'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400;700&display=swap');
+        
+        .film-strip {
+            background-image: repeating-linear-gradient(
+                to right,
+                #333,
+                #333 20px,
+                #fff 20px,
+                #fff 40px
+            );
+            height: 10px;
+        }
+    </style>
 </head>
-<body>
-
-    <header class="main-header">
-        <div class="container">
-            <a href="../index.html" class="logo">Foods in Movies</a>
-            <nav class="main-nav">
-                <a href="../index.html">Home</a>
-                <a href="../about.html">About</a>
+<body class="bg-gray-100">
+    <!-- Film strip border top -->
+    <div class="film-strip"></div>
+    
+    <!-- Header with marquee effect -->
+    <header class="bg-filmreel text-popcorn py-4 px-6 shadow-lg">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center mb-4 md:mb-0">
+                <i class="fas fa-film text-3xl mr-3"></i>
+                <h1 class="text-4xl font-movie tracking-wider">
+                    <a href="../index.html" class="text-popcorn hover:text-butter transition-colors duration-300">FOODS IN MOVIES</a>
+                </h1>
+            </div>
+            <nav class="font-movie text-lg">
+                <a href="../index.html" class="text-white hover:text-butter transition-colors duration-300 mr-6">
+                    <i class="fas fa-home mr-2"></i>Home
+                </a>
+                <a href="../about.html" class="text-white hover:text-butter transition-colors duration-300">
+                    <i class="fas fa-info-circle mr-2"></i>About
+                </a>
             </nav>
         </div>
     </header>
 
-    <main class="container">
-        <section class="content-page article-content-body">
-            <h1>Big Hair, Big Plates: The Unforgettable & Totally Awesome Food Moments of '80s Cinema</h1>
-            <img src="https://images.unsplash.com/photo-1517673400267-0251440c45dc?q=80&w=800&auto=format&fit=crop" 
-                 alt="A vibrant collage of 80s movie and food imagery" 
-                 class="hero-article-image">
-            
-            <p><em>Hey, fellow nostalgia-trippers! Let's fire up the DeLorean, crank up the synth-pop, and take a gnarly trip back to the 1980s—a decade of neon, big hair, and even bigger cinematic appetites.</em></p>
-            
-            <p>The '80s weren't just about iconic fashion and blockbuster movies; they served up some of the most memorable, outrageous, and surprisingly influential food moments ever to grace the silver screen. From decadent feasts to humble, heartwarming meals, '80s movies reflected a wild culinary landscape of excess and comfort.</p>
+    <!-- Article Hero Section -->
+    <section class="relative overflow-hidden bg-gradient-to-r from-filmreel to-gray-800 text-white py-16">
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="max-w-4xl mx-auto text-center">
+                <div class="inline-block bg-butter text-filmreel px-4 py-2 rounded-full font-movie text-sm mb-4">
+                    <i class="fas fa-calendar-alt mr-2"></i>80s CINEMA
+                </div>
+                <h1 class="text-4xl md:text-6xl font-movie mb-6 leading-tight">
+                    Big Hair, Big Plates: <span class="text-popcorn">The Unforgettable Food Moments</span> of '80s Cinema
+                </h1>
+                <p class="text-xl mb-8 text-gray-300 max-w-3xl mx-auto">
+                    Hey, fellow nostalgia-trippers! Let's fire up the DeLorean, crank up the synth-pop, and take a gnarly trip back to the 1980s—a decade of neon, big hair, and even bigger cinematic appetites.
+                </p>
+                <div class="flex justify-center items-center space-x-6 text-sm text-gray-400">
+                    <span><i class="far fa-clock mr-1"></i> 5 min read</span>
+                    <span><i class="fas fa-user mr-1"></i> Foods in Movies</span>
+                    <span><i class="fas fa-tag mr-1"></i> 80s, Movies, Food</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <h3>The "Old 96er": A Steak of Legend in The Great Outdoors (1988)</h3>
-            <p>You can't talk about '80s movie food without paying homage to the undisputed heavyweight champion: the "Old 96er." In this classic comedy, the lovably oafish Chet Ripley (the legendary John Candy) accepts a local restaurant's challenge to devour a 96-ounce steak to win a free meal for his family.</p>
-            
-            <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?q=80&w=800&auto=format&fit=crop" 
-                 alt="A huge perfectly cooked steak on a wooden board" 
-                 class="content-image">
-            
-            <p>The scene is a masterclass in comedic gluttony. We watch in awe as Chet tackles the behemoth piece of beef, a glistening monument to meaty excess. It's grotesque, it's hilarious, and it's quintessentially '80s. The steak itself becomes a symbol of the oversized ambitions and appetites of the era.</p>
-
-            <div class="product-section">
-                <h4>Get the '80s Steakhouse Vibe:</h4>
-                <ul>
-                    <li>Grill it Like Chet: Get that perfect sear with a high-quality <a href="https://www.amazon.com/s?k=cast+iron+skillet&tag=greatgearhq-20" target="_blank">cast-iron skillet</a>.</li>
-                    <li>The Right Tools: Become the grill master with this <a href="https://www.amazon.com/s?k=professional+bbq+tool+set&tag=greatgearhq-20" target="_blank">professional BBQ tool set</a>.</li>
-                    <li>Wear the Legend: Show your love for cinematic culinary challenges with this <a href="https://www.amazon.com/s?k=old+96er+shirt&tag=greatgearhq-20" target="_blank">"Old 96er" tribute t-shirt</a>.</li>
-                </ul>
+    <!-- Article Content -->
+    <main class="container mx-auto px-6 py-16">
+        <div class="max-w-4xl mx-auto">
+            <!-- Hero Image -->
+            <div class="mb-12">
+                <img src="https://images.unsplash.com/photo-1517673400267-0251440c45dc?q=80&w=1200&auto=format&fit=crop" 
+                     alt="A vibrant collage of 80s movie and food imagery" 
+                     class="w-full h-64 md:h-96 object-cover rounded-xl shadow-lg border-4 border-butter">
             </div>
 
-            <h3>Four Fried Chickens and a Coke: Dining with The Blues Brothers (1980)</h3>
-            <p>Before the "mission from God" could be completed, Jake and Elwood Blues had to refuel. Their stop at a soul food diner, run by the formidable Matt "Guitar" Murphy and his wife (played by the iconic Aretha Franklin), is a testament to the simple, soul-satisfying power of a good meal.</p>
-            
-            <img src="https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=800&auto=format&fit=crop" 
-                 alt="Perfectly fried chicken pieces on a plate" 
-                 class="content-image">
-            
-            <p>Their order? "Four fried chickens and a Coke." It's not fancy, but it's real. The scene is electric, not just for Aretha's show-stopping performance of "Think," but for how it grounds these larger-than-life characters in the comfort of crispy, perfectly fried bird.</p>
+            <!-- Article Body -->
+            <article class="prose prose-lg max-w-none">
+                <div class="bg-white rounded-xl p-8 shadow-lg mb-8">
+                    <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                        The '80s weren't just about iconic fashion and blockbuster movies; they served up some of the most memorable, outrageous, and surprisingly influential food moments ever to grace the silver screen. From decadent feasts to humble, heartwarming meals, '80s movies reflected a wild culinary landscape of excess and comfort.
+                    </p>
+                </div>
 
-            <div class="product-section">
-                <h4>Recreate the Soul Food Experience:</h4>
-                <ul>
-                    <li>The Secret to Crispy Chicken: A good <a href="https://www.amazon.com/s?k=deep+fryer&tag=greatgearhq-20" target="_blank">deep fryer</a> is essential for that perfect golden-brown crust.</li>
-                    <li>The Movie: Relive the magic and music with <a href="https://www.amazon.com/s?k=the+blues+brothers+blu-ray&tag=greatgearhq-20" target="_blank">The Blues Brothers on Blu-ray</a>.</li>
-                </ul>
-            </div>
+                <!-- Movie Section 1 -->
+                <div class="bg-white rounded-xl p-8 shadow-lg mb-8">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-soda text-white p-3 rounded-full mr-4">
+                            <i class="fas fa-utensils text-xl"></i>
+                        </div>
+                        <h2 class="text-3xl font-movie text-filmreel">The "Old 96er": A Steak of Legend in The Great Outdoors (1988)</h2>
+                    </div>
+                    
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        You can't talk about '80s movie food without paying homage to the undisputed heavyweight champion: the "Old 96er." In this classic comedy, the lovably oafish Chet Ripley (the legendary John Candy) accepts a local restaurant's challenge to devour a 96-ounce steak to win a free meal for his family.
+                    </p>
+                    
+                    <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?q=80&w=800&auto=format&fit=crop" 
+                         alt="A huge perfectly cooked steak on a wooden board" 
+                         class="w-full h-64 object-cover rounded-lg shadow-md mb-6">
+                    
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        The scene is a masterclass in comedic gluttony. We watch in awe as Chet tackles the behemoth piece of beef, a glistening monument to meaty excess. It's grotesque, it's hilarious, and it's quintessentially '80s. The steak itself becomes a symbol of the oversized ambitions and appetites of the era.
+                    </p>
 
-            <h3>A Secret Ingredient in Mystic Pizza (1988)</h3>
-            <p>Long before Julia Roberts was a global superstar, she was Daisy Araujo, a fiery waitress slinging pies at a small-town Connecticut pizza parlor. Mystic Pizza wasn't just the name of the movie; it was the heart of the story. The pizza shop was the hub for the lives and loves of three young women coming of age.</p>
-            
-            <img src="https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?q=80&w=800&auto=format&fit=crop" 
-                 alt="A delicious looking pizza with fresh ingredients" 
-                 class="content-image">
-            
-            <p>The film made pizza more than just food; it was a symbol of working-class pride and secret family recipes. The parlor's "secret ingredient" wasn't just a spice; it was the love, friendship, and dreams baked into every slice. The movie's charm lies in this authentic portrayal of food as a unifier and source of local identity.</p>
+                    <!-- Product Section -->
+                    <div class="bg-gradient-to-r from-butter/10 to-popcorn/10 rounded-lg p-6 border-l-4 border-soda">
+                        <h3 class="font-movie text-xl text-filmreel mb-4 flex items-center">
+                            <i class="fas fa-shopping-bag mr-2 text-soda"></i>
+                            Get the '80s Steakhouse Vibe:
+                        </h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-fire text-soda mr-3 mt-1"></i>
+                                <span>Grill it Like Chet: Get that perfect sear with a high-quality <a href="https://www.amazon.com/s?k=cast+iron+skillet" target="_blank" class="text-soda hover:text-orange-600 font-bold">cast-iron skillet</a>.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-tools text-soda mr-3 mt-1"></i>
+                                <span>The Right Tools: Become the grill master with this <a href="https://www.amazon.com/s?k=professional+bbq+tool+set" target="_blank" class="text-soda hover:text-orange-600 font-bold">professional BBQ tool set</a>.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-tshirt text-soda mr-3 mt-1"></i>
+                                <span>Wear the Legend: Show your love for cinematic culinary challenges with this <a href="https://www.amazon.com/s?k=old+96er+shirt" target="_blank" class="text-soda hover:text-orange-600 font-bold">"Old 96er" tribute t-shirt</a>.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
-            <div class="product-section">
-                <h4>Bring Mystic Pizza Home:</h4>
-                <ul>
-                    <li>The Perfect Slice: A perforated <a href="https://www.amazon.com/s?k=perforated+pizza+pan&tag=greatgearhq-20" target="_blank">pizza pan</a> helps create a crispy crust, just like in the movie.</li>
-                    <li>Make it From Scratch: Nothing beats homemade. Try this <a href="https://www.amazon.com/s?k=pizza+dough+mix&tag=greatgearhq-20" target="_blank">pizza dough mix</a> for a foolproof foundation.</li>
-                    <li>Movie Night Essential: Add <a href="https://www.amazon.com/s?k=mystic+pizza+movie&tag=greatgearhq-20" target="_blank">Mystic Pizza</a> to your streaming library.</li>
-                </ul>
-            </div>
+                <!-- Movie Section 2 -->
+                <div class="bg-white rounded-xl p-8 shadow-lg mb-8">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-candy text-white p-3 rounded-full mr-4">
+                            <i class="fas fa-drumstick-bite text-xl"></i>
+                        </div>
+                        <h2 class="text-3xl font-movie text-filmreel">Four Fried Chickens and a Coke: Dining with The Blues Brothers (1980)</h2>
+                    </div>
+                    
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        Before the "mission from God" could be completed, Jake and Elwood Blues had to refuel. Their stop at a soul food diner, run by the formidable Matt "Guitar" Murphy and his wife (played by the iconic Aretha Franklin), is a testament to the simple, soul-satisfying power of a good meal.
+                    </p>
+                    
+                    <img src="https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=800&auto=format&fit=crop" 
+                         alt="Perfectly fried chicken pieces on a plate" 
+                         class="w-full h-64 object-cover rounded-lg shadow-md mb-6">
+                    
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        Their order? "Four fried chickens and a Coke." It's not fancy, but it's real. The scene is electric, not just for Aretha's show-stopping performance of "Think," but for how it grounds these larger-than-life characters in the comfort of crispy, perfectly fried bird.
+                    </p>
 
-            <p>The '80s were a wild time for food trends off-screen, too. Pasta salads were at every potluck, fancy French-inspired vol-au-vents screamed sophistication, and diet crazes like Lean Cuisine filled our freezers. Movies subtly captured this culinary schizophrenia, giving us both the aspirational feasts and the everyday eats that defined the decade.</p>
+                    <!-- Product Section -->
+                    <div class="bg-gradient-to-r from-candy/10 to-soda/10 rounded-lg p-6 border-l-4 border-candy">
+                        <h3 class="font-movie text-xl text-filmreel mb-4 flex items-center">
+                            <i class="fas fa-shopping-bag mr-2 text-candy"></i>
+                            Recreate the Soul Food Experience:
+                        </h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-fire text-candy mr-3 mt-1"></i>
+                                <span>The Secret to Crispy Chicken: A good <a href="https://www.amazon.com/s?k=deep+fryer" target="_blank" class="text-candy hover:text-pink-600 font-bold">deep fryer</a> is essential for that perfect golden-brown crust.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-film text-candy mr-3 mt-1"></i>
+                                <span>The Movie: Relive the magic and music with <a href="https://www.amazon.com/s?k=the+blues+brothers+blu-ray" target="_blank" class="text-candy hover:text-pink-600 font-bold">The Blues Brothers on Blu-ray</a>.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
-            <div class="comment-prompt">
-                <p>So, what's your favorite '80s movie food moment? Did Babette's Feast make you crave French cuisine? Did you ever try to eat your lunch like the kids from The Breakfast Club? Drop a comment below and let us know!</p>
-            </div>
-        </section>
+                <!-- Movie Section 3 -->
+                <div class="bg-white rounded-xl p-8 shadow-lg mb-8">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-popcorn text-filmreel p-3 rounded-full mr-4">
+                            <i class="fas fa-pizza-slice text-xl"></i>
+                        </div>
+                        <h2 class="text-3xl font-movie text-filmreel">A Secret Ingredient in Mystic Pizza (1988)</h2>
+                    </div>
+                    
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        Long before Julia Roberts was a global superstar, she was Daisy Araujo, a fiery waitress slinging pies at a small-town Connecticut pizza parlor. Mystic Pizza wasn't just the name of the movie; it was the heart of the story. The pizza shop was the hub for the lives and loves of three young women coming of age.
+                    </p>
+                    
+                    <img src="https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?q=80&w=800&auto=format&fit=crop" 
+                         alt="A delicious looking pizza with fresh ingredients" 
+                         class="w-full h-64 object-cover rounded-lg shadow-md mb-6">
+                    
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        The film made pizza more than just food; it was a symbol of working-class pride and secret family recipes. The parlor's "secret ingredient" wasn't just a spice; it was the love, friendship, and dreams baked into every slice. The movie's charm lies in this authentic portrayal of food as a unifier and source of local identity.
+                    </p>
+
+                    <!-- Product Section -->
+                    <div class="bg-gradient-to-r from-popcorn/10 to-butter/10 rounded-lg p-6 border-l-4 border-popcorn">
+                        <h3 class="font-movie text-xl text-filmreel mb-4 flex items-center">
+                            <i class="fas fa-shopping-bag mr-2 text-yellow-600"></i>
+                            Bring Mystic Pizza Home:
+                        </h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-circle text-yellow-600 mr-3 mt-1"></i>
+                                <span>The Perfect Slice: A perforated <a href="https://www.amazon.com/s?k=perforated+pizza+pan" target="_blank" class="text-yellow-600 hover:text-yellow-700 font-bold">pizza pan</a> helps create a crispy crust, just like in the movie.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-hand-holding-heart text-yellow-600 mr-3 mt-1"></i>
+                                <span>Make it From Scratch: Nothing beats homemade. Try this <a href="https://www.amazon.com/s?k=pizza+dough+mix" target="_blank" class="text-yellow-600 hover:text-yellow-700 font-bold">pizza dough mix</a> for a foolproof foundation.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-film text-yellow-600 mr-3 mt-1"></i>
+                                <span>Movie Night Essential: Add <a href="https://www.amazon.com/s?k=mystic+pizza+movie" target="_blank" class="text-yellow-600 hover:text-yellow-700 font-bold">Mystic Pizza</a> to your streaming library.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Conclusion -->
+                <div class="bg-white rounded-xl p-8 shadow-lg mb-8">
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        The '80s were a wild time for food trends off-screen, too. Pasta salads were at every potluck, fancy French-inspired vol-au-vents screamed sophistication, and diet crazes like Lean Cuisine filled our freezers. Movies subtly captured this culinary schizophrenia, giving us both the aspirational feasts and the everyday eats that defined the decade.
+                    </p>
+                </div>
+
+                <!-- Comment Prompt -->
+                <div class="bg-gradient-to-r from-filmreel to-gray-800 text-white rounded-xl p-8 text-center">
+                    <i class="fas fa-comments text-4xl text-popcorn mb-4"></i>
+                    <h3 class="font-movie text-2xl mb-4">Join the Conversation!</h3>
+                    <p class="text-gray-300 mb-6">
+                        So, what's your favorite '80s movie food moment? Did Babette's Feast make you crave French cuisine? Did you ever try to eat your lunch like the kids from The Breakfast Club?
+                    </p>
+                    <button class="bg-soda hover:bg-orange-600 text-white font-bold px-8 py-3 rounded-full transition duration-300 transform hover:scale-105">
+                        <i class="fas fa-comment mr-2"></i>Share Your Thoughts
+                    </button>
+                </div>
+            </article>
+        </div>
     </main>
 
-    <footer class="main-footer">
-        <p>© 2025 Foods in Movies. All rights reserved.</p>
-        <p class="disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-white text-xl font-movie mb-4">Foods in Movies</h3>
+                    <p class="mb-4">Exploring the powerful connection between the movies we love and the food we crave.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-movie mb-4">Explore</h4>
+                    <ul class="space-y-2">
+                        <li><a href="../articles/big-hair-big-plates-80s-cinema-food.html" class="hover:text-white">80s Food Scenes</a></li>
+                        <li><a href="../articles/the-5-shake-and-a-side-of-attitude-how-90s.html" class="hover:text-white">90s Diner Culture</a></li>
+                        <li><a href="../articles/80s-movie-food-standalone.html" class="hover:text-white">Comfort Food Classics</a></li>
+                        <li><a href="../about.html" class="hover:text-white">About Us</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-movie mb-4">Categories</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white">By Decade</a></li>
+                        <li><a href="#" class="hover:text-white">By Genre</a></li>
+                        <li><a href="#" class="hover:text-white">By Cuisine</a></li>
+                        <li><a href="#" class="hover:text-white">Behind the Scenes</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-movie mb-4">Connect</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white">Contact Us</a></li>
+                        <li><a href="#" class="hover:text-white">Newsletter</a></li>
+                        <li><a href="#" class="hover:text-white">Write for Us</a></li>
+                        <li><a href="#" class="hover:text-white">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p>&copy; 2025 Foods in Movies. All rights reserved.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <p class="text-sm">As an Amazon Associate I earn from qualifying purchases.</p>
+                </div>
+            </div>
+        </div>
     </footer>
-
+    
+    <!-- Film strip border bottom -->
+    <div class="film-strip"></div>
 </body>
 </html>
