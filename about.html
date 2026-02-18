@@ -37,10 +37,52 @@
         </section>
     </main>
 
+    <section class="newsletter-section" style="background:#333;color:#fff;padding:3rem 1rem;text-align:center;">
+        <div style="max-width:500px;margin:0 auto;">
+            <h2 style="font-size:1.5rem;margin-bottom:0.5rem;">Join Our Foodie Film Club</h2>
+            <p style="margin-bottom:1rem;color:#ccc;">Get weekly recipes, movie recommendations, and exclusive content.</p>
+            <form id="newsletter-form" style="display:flex;gap:0.5rem;flex-wrap:wrap;justify-content:center;">
+                <input type="email" id="newsletter-email" placeholder="Your email address" required style="padding:0.6rem 1rem;border-radius:9999px;border:none;flex:1;min-width:200px;color:#333;">
+                <button type="submit" style="padding:0.6rem 1.5rem;border-radius:9999px;background:#FF5733;color:#fff;border:none;font-weight:bold;cursor:pointer;">Subscribe</button>
+            </form>
+            <p id="newsletter-msg" style="margin-top:0.75rem;font-size:0.875rem;display:none;"></p>
+            <p style="margin-top:0.75rem;font-size:0.75rem;color:#999;">We promise not to spam you. Unsubscribe anytime.</p>
+        </div>
+    </section>
+
     <footer class="main-footer">
         <p>© 2025 Foods in Movies. All rights reserved.</p>
         <p class="disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
     </footer>
 
+    <script>
+    document.getElementById('newsletter-form').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const email = document.getElementById('newsletter-email').value;
+        const msg = document.getElementById('newsletter-msg');
+        const btn = e.target.querySelector('button[type="submit"]');
+        btn.disabled = true;
+        btn.textContent = 'Subscribing...';
+        msg.style.display = 'none';
+        try {
+            const res = await fetch('/api/subscribe', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ email })
+            });
+            const data = await res.json();
+            msg.textContent = res.ok ? (data.message || 'Subscribed!') : (data.error || 'Something went wrong.');
+            msg.style.display = 'block';
+            msg.style.color = res.ok ? '#4ade80' : '#f87171';
+            if (res.ok) document.getElementById('newsletter-email').value = '';
+        } catch {
+            msg.textContent = 'Network error. Please try again.';
+            msg.style.display = 'block';
+            msg.style.color = '#f87171';
+        }
+        btn.disabled = false;
+        btn.textContent = 'Subscribe';
+    });
+    </script>
 </body>
 </html>

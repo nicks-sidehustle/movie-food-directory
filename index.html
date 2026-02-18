@@ -453,13 +453,13 @@
                 <h2 class="text-3xl font-movie mb-4">Join Our <span class="text-butter">Foodie Film Club</span></h2>
                 <p class="mb-8">Get weekly recipes, movie recommendations, and exclusive content delivered to your inbox.</p>
                 
-                <div class="flex flex-col sm:flex-row gap-4 max-w-lg mx-auto">
-                    <input type="email" placeholder="Your email address" class="flex-grow px-4 py-3 rounded-full text-filmreel focus:outline-none">
-                    <button class="bg-soda hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-full transition duration-300 transform hover:scale-105">
+                <form id="newsletter-form" class="flex flex-col sm:flex-row gap-4 max-w-lg mx-auto">
+                    <input type="email" id="newsletter-email" placeholder="Your email address" required class="flex-grow px-4 py-3 rounded-full text-filmreel focus:outline-none">
+                    <button type="submit" class="bg-soda hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-full transition duration-300 transform hover:scale-105">
                         Subscribe <i class="fas fa-ticket-alt ml-2"></i>
                     </button>
-                </div>
-                
+                </form>
+                <p id="newsletter-msg" class="text-sm mt-4 text-gray-300 hidden"></p>
                 <p class="text-sm mt-4 text-gray-300">We promise not to spam you. Unsubscribe anytime.</p>
             </div>
         </div>
@@ -524,5 +524,36 @@
     
     <!-- Film strip border bottom -->
     <div class="film-strip"></div>
+
+    <script>
+    document.getElementById('newsletter-form').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const email = document.getElementById('newsletter-email').value;
+        const msg = document.getElementById('newsletter-msg');
+        const btn = e.target.querySelector('button[type="submit"]');
+        btn.disabled = true;
+        btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Subscribing...';
+        msg.classList.add('hidden');
+        try {
+            const res = await fetch('/api/subscribe', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ email })
+            });
+            const data = await res.json();
+            msg.textContent = res.ok ? (data.message || 'Subscribed!') : (data.error || 'Something went wrong.');
+            msg.classList.remove('hidden');
+            msg.classList.toggle('text-green-400', res.ok);
+            msg.classList.toggle('text-red-400', !res.ok);
+            if (res.ok) document.getElementById('newsletter-email').value = '';
+        } catch {
+            msg.textContent = 'Network error. Please try again.';
+            msg.classList.remove('hidden');
+            msg.classList.add('text-red-400');
+        }
+        btn.disabled = false;
+        btn.innerHTML = 'Subscribe <i class="fas fa-ticket-alt ml-2"></i>';
+    });
+    </script>
 </body>
 </html>
